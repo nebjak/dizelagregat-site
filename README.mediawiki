@@ -26,8 +26,7 @@ Srbija
 
 
 == Komponente: ==
-* Codeigniter
-* jQuery 1.5.2
-* jquery.bgpos 1.21 (Alexander Farkas)
+* Codeigniter 2.0.3
+* jQuery 1.6.4
 
 
