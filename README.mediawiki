@@ -1,0 +1,33 @@
+= WEB SAJT DIZELAGREGAT.COM =
+
+
+
+[http://www.dizelagregat.com/ www.dizelagregat.com]
+
+[http://www.dizel-agregat.com/ www.dizel-agregat.com]
+
+
+
+
+'''Energoglobal doo'''
+
+Kneza Miloša 33
+
+21000
+
+Srbija
+
+
+
+== Standardi: ==
+* HTML5
+* CSS3
+
+
+
+== Komponente: ==
+* Codeigniter
+* jQuery 1.5.2
+* jquery.bgpos 1.21 (Alexander Farkas)
+
+
