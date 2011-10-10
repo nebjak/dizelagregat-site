@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>:: Dizel agregati ::</title>
+        <title>Dizel agregati :: Energoglobal doo - Novi Sad - Srbija</title>
         <link rel="stylesheet" href="<?= base_url() ?>css/reset.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/text.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/960.css" />
@@ -62,13 +62,13 @@
             </div>
             <div class="clear"></div>
             <div class="grid_12" id="box3">                
-                <a href="#p">
+                <a href="srb/proizvodi_i_usluge">
                     <img src="<?=base_url()?>images/prodaja.jpg" alt="Prodaja"/>
                 </a>
-                <a href="#s">
+                <a href="srb/servis">
                     <img src="<?=base_url()?>images/servis.jpg" alt="Servis"/>
                 </a>
-                <a href="#i">
+                <a href="srb/rental">
                     <img src="<?=base_url()?>images/iznajmljivanje.jpg" alt="Iznajmljivanje" />
                 </a>
             </div>            
@@ -79,11 +79,15 @@
                     <div id="sub_menu">
                         Iznajmljivanje | Prodaja | Servis
                     </div>
-                    <p id="first_in_box6">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                        accusantium doloremque laudantium, totam rem aperiam, eaque 
-                        ipsa quae ab illo inventore veritatis et quasi architecto 
-                        beatae vitae dicta sunt explicabo.
+                    <h1>Energoglobal doo</h1>
+                    <p>
+                        Energoglobal doo<br/>
+                        Kneza Miloša 33<br/>
+                        Novi Sad<br/>
+                        Srbija<br/>
+                    </p>
+                    <p>
+                        PIB: 106644707
                     </p>
                 </div>
                 <div class="grid_3" id="box7">

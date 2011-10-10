@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>:: Dizel agregati ::</title>
+        <title>O nama :: Dizel agregati :: Energoglobal doo - Novi Sad - Srbija</title>
         <link rel="stylesheet" href="<?=base_url()?>css/reset.css" />
         <link rel="stylesheet" href="<?=base_url()?>css/text.css" />
         <link rel="stylesheet" href="<?=base_url()?>css/960.css" />
@@ -62,13 +62,13 @@
             </div>
             <div class="clear"></div>
             <div class="grid_12" id="box3">
-                <a href="#p">
+                <a href="srb/proizvodi_i_usluge">
                     <img src="<?=base_url()?>images/prodaja.jpg" alt="Prodaja"/>
                 </a>
-                <a href="#s">
+                <a href="srb/servis">
                     <img src="<?=base_url()?>images/servis.jpg" alt="Servis"/>
                 </a>
-                <a href="#i">
+                <a href="srb/rental">
                     <img src="<?=base_url()?>images/iznajmljivanje.jpg" alt="Iznajmljivanje" />
                 </a>
             </div>
@@ -96,9 +96,9 @@
                     <p>
                         Naša misija je da primenom dugogodišnjeg iskustva i 
                         kvalitetnih komponeti pomognemo našim klijentima pri 
-                        projektovanju, odabiru i,ispruci opreme i  izvođenju po 
+                        projektovanju, odabiru i, ispruci opreme i  izvođenju po 
                         sistemu ključ u ruke, remontu i servisu dizelagregatskih 
-                        potrojenja i UPS sistema.<br/>
+                        postrojenja i UPS sistema.<br/>
                         Naša vizija je da kroz  konstantno povećanje  znanja i 
                         novih tehnologija  postamo  jedna od vodećih kompanija iz 
                         oblasti rezervnih i alternativnih izvora napajanja a na 
