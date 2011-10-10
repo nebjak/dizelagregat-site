@@ -3,14 +3,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>:: Dizel agregati ::</title>
-        <link rel="stylesheet" href="<?=base_url()?>css/reset.css" />
-        <link rel="stylesheet" href="<?=base_url()?>css/text.css" />
-        <link rel="stylesheet" href="<?=base_url()?>css/960.css" />
-        <link rel="stylesheet" href="<?=base_url()?>css/main.css" />
-        <link rel="stylesheet" href="<?=base_url()?>css/jquery.simplyscroll-1.0.4.css" />
-        <script type="text/javascript" src="<?=base_url()?>js/jquery.min.js"></script>
-        <script type="text/javascript" src="<?=base_url()?>js/jquery.cycle.all.js"></script>
-        <script type="text/javascript" src="<?=base_url()?>js/jquery.simplyscroll-1.0.4.min.js"></script>
+        <link rel="stylesheet" href="<?= base_url() ?>css/reset.css" />
+        <link rel="stylesheet" href="<?= base_url() ?>css/text.css" />
+        <link rel="stylesheet" href="<?= base_url() ?>css/960.css" />
+        <link rel="stylesheet" href="<?= base_url() ?>css/main.css" />
+        <link rel="stylesheet" href="<?= base_url() ?>css/jquery.simplyscroll-1.0.4.css" />
+        <script type="text/javascript" src="<?= base_url() ?>js/jquery.min.js"></script>
+        <script type="text/javascript" src="<?= base_url() ?>js/jquery.cycle.all.js"></script>
+        <script type="text/javascript" src="<?= base_url() ?>js/jquery.simplyscroll-1.0.4.min.js"></script>
         <script type="text/javascript">
             $(function() {
                 $('#box3').cycle({
@@ -27,50 +27,50 @@
     <body>
         <div class="container_12">
             <div class="grid_4" id="box0">
-                <img src="<?=base_url()?>images/logo.png" alt="Dizel agregari - Energoglobal doo" />
+                <img src="<?= base_url() ?>images/logo.png" alt="Dizel agregari - Energoglobal doo" />
             </div>
             <div class="grid_8" id="box1">
                 <ul>
-                    <li class="current_page_item"><a href="<?=base_url()?>srb/pocetna">Početna</a></li>
-                    <li><a href="<?=base_url()?>srb/o_nama">O nama</a></li>
-                    <li><a href="<?=base_url()?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
-                    <li><a href="<?=base_url()?>srb/rental">Rental</a></li>
-                    <li><a href="<?=base_url()?>srb/servis">Servis</a></li>
-                    <li><a href="<?=base_url()?>srb/podrska">Podrška</a></li>
-                    <li><a href="<?=base_url()?>srb/reference">Reference</a></li>
-                    <li><a href="<?=base_url()?>srb/kontakt">Kontakt</a></li>
+                    <li class="current_page_item"><a href="<?= base_url() ?>srb/pocetna">Početna</a></li>
+                    <li><a href="<?= base_url() ?>srb/o_nama">O nama</a></li>
+                    <li><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                    <li><a href="<?= base_url() ?>srb/rental">Rental</a></li>
+                    <li><a href="<?= base_url() ?>srb/servis">Servis</a></li>
+                    <li><a href="<?= base_url() ?>srb/podrska">Podrška</a></li>
+                    <li><a href="<?= base_url() ?>srb/reference">Reference</a></li>
+                    <li><a href="<?= base_url() ?>srb/kontakt">Kontakt</a></li>
                 </ul>
             </div>
             <div class="grid_12" id="box2">
                 <form>
-                <table>
-                    <tr>
-                        <td style="width: 15%;">
-                            <a href="#" id="current_page_language">SR</a>
-                            <a href="#">EN</a>
-                        </td>
-                        <td style="width: 85%; text-align: right;">                        
-                            <label for="username">Korisnicko ime:</label>
-                            <input id="username" name="username" type="text" placeholder="username" />                        
-                            <label for="password">Lozinka:</label>
-                            <input id="password" name="password" type="password" placeholder="password" />                        
-                            <input type="submit" value="Prijavite se"/>
-                        </td>
-                    </tr>
-                </table>
+                    <table>
+                        <tr>
+                            <td style="width: 15%;">
+                                <a href="#" id="current_page_language">SR</a>
+                                <a href="#">EN</a>
+                            </td>
+                            <td style="width: 85%; text-align: right;">                        
+                                <label for="username">Korisnicko ime:</label>
+                                <input id="username" name="username" type="text" placeholder="username" />                        
+                                <label for="password">Lozinka:</label>
+                                <input id="password" name="password" type="password" placeholder="password" />                        
+                                <input type="submit" value="Prijavite se"/>
+                            </td>
+                        </tr>
+                    </table>
                 </form>
             </div>
             <div class="clear"></div>
             <div class="grid_12" id="box3">                
-                <a href="#i">
-                    <img src="<?=base_url()?>images/iznajmljivanje.jpg" alt="Iznajmljivanje" />
-                </a>
                 <a href="#p">
                     <img src="<?=base_url()?>images/prodaja.jpg" alt="Prodaja"/>
                 </a>
                 <a href="#s">
                     <img src="<?=base_url()?>images/servis.jpg" alt="Servis"/>
-                </a>                
+                </a>
+                <a href="#i">
+                    <img src="<?=base_url()?>images/iznajmljivanje.jpg" alt="Iznajmljivanje" />
+                </a>
             </div>            
         </div>
         <div id="box4">
@@ -87,49 +87,7 @@
                     </p>
                 </div>
                 <div class="grid_3" id="box7">
-                    <h2>Novosti</h2>
-                    <ul id="news_scroller">
-                        <li>
-                            <h3><a href="#">Nalov 01</a></h3>
-                            <p>
-                                01.01.2011.<br/>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                                accusantium doloremque laudantium, totam rem aperiam, eaque 
-                                ipsa quae ab illo inventore veritatis et quasi architecto 
-                                beatae vitae dicta sunt explicabo.
-                            </p>
-                        </li>
-                        <li>
-                            <h3><a href="#">Nalov 02</a></h3>
-                            <p>
-                                01.02.2011.<br/>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                                accusantium doloremque laudantium, totam rem aperiam, eaque 
-                                ipsa quae ab illo inventore veritatis et quasi architecto 
-                                beatae vitae dicta sunt explicabo.
-                            </p>
-                        </li>
-                        <li>
-                            <h3><a href="#">Nalov 02</a></h3>
-                            <p>
-                                01.03.2011.<br/>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                                accusantium doloremque laudantium, totam rem aperiam, eaque 
-                                ipsa quae ab illo inventore veritatis et quasi architecto 
-                                beatae vitae dicta sunt explicabo.
-                            </p>
-                        </li>
-                        <li>
-                            <h3><a href="#">Nalov 04</a></h3>
-                            <p>
-                                02.04.2011.<br/>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                                accusantium doloremque laudantium, totam rem aperiam, eaque 
-                                ipsa quae ab illo inventore veritatis et quasi architecto 
-                                beatae vitae dicta sunt explicabo.
-                            </p>
-                        </li>
-                    </ul>                    
+                    <?=$this->load->view('srb/news_scroller')?>
                 </div>
             </div>
         </div>
@@ -137,19 +95,19 @@
             <div class="container_12">
                 <div class="grid_7" id="box9">                    
                     <ul>
-                        <li class="current_page_item"><a href="<?=base_url()?>srb/pocetna">Početna</a></li>
-                        <li><a href="<?=base_url()?>srb/o_nama">O nama</a></li>
-                        <li><a href="<?=base_url()?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
-                        <li><a href="<?=base_url()?>srb/rental">Rental</a></li>
-                        <li><a href="<?=base_url()?>srb/servis">Servis</a></li>
-                        <li><a href="<?=base_url()?>srb/podrska">Podrška</a></li>
-                        <li><a href="<?=base_url()?>srb/reference">Reference</a></li>
-                        <li><a href="<?=base_url()?>srb/kontakt">Kontakt</a></li>
+                        <li class="current_page_item"><a href="<?= base_url() ?>srb/pocetna">Početna</a></li>
+                        <li><a href="<?= base_url() ?>srb/o_nama">O nama</a></li>
+                        <li><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                        <li><a href="<?= base_url() ?>srb/rental">Rental</a></li>
+                        <li><a href="<?= base_url() ?>srb/servis">Servis</a></li>
+                        <li><a href="<?= base_url() ?>srb/podrska">Podrška</a></li>
+                        <li><a href="<?= base_url() ?>srb/reference">Reference</a></li>
+                        <li><a href="<?= base_url() ?>srb/kontakt">Kontakt</a></li>
                     </ul>
                 </div>
                 <div class="grid_5" id="box10">
                     <p>
-                        &copy; Energoglobal doo | Ažurirano: 06.10.2011. | Design by Baseline / code by nebjak
+                        &copy; Energoglobal doo | Ažurirano: <?= SITE_LAST_UPDATE ?> | Design by Baseline / code by nebjak
                     </p>
                 </div>
             </div>

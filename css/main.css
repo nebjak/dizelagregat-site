@@ -141,8 +141,14 @@ a:hover {
     color: #cdcdcd;
 }
 
-#box6 p#first_in_box6 {
+#box6 h1 {
     padding: 40px 10px 10px 0px;
+}
+
+#box6 h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 15px;
 }
 
 #box6 p {

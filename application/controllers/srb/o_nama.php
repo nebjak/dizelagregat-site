@@ -7,6 +7,6 @@ class O_nama extends CI_Controller {
     }
     
     function index() {
-        $this->load->view('srb/kontakt/index_page');
+        $this->load->view('srb/o_nama/index_page');
     }
 }
