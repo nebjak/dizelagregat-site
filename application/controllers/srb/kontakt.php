@@ -14,12 +14,6 @@ class Kontakt extends CI_Controller {
     }
     
     function process() {
-        /*
-         * debug
-         */
-        sleep(5);
-        /* debug end*/
-        
         if(is_ajax()) {
             $this->email->from('nebojsa@nebjak.net', 'DEA');
             $this->email->to('nebojsa.jakovljevic@energoglobal.com');
