@@ -17,7 +17,7 @@ class Kontakt extends CI_Controller {
         if(is_ajax()) {
             $this->email->from('nebojsa@nebjak.net', 'DEA');
             $this->email->to('nebojsa.jakovljevic@energoglobal.com');
-            $this->email->subject('Kontakt sa sajta');
+            $this->email->subject('Kontakt sa sajta: '.date("Y-m-d H:i:s"));
             $this->email->message("
                 Firma: {$this->input->post('firma')}
                 Ime: {$this->input->post('ime')}
