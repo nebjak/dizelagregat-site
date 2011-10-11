@@ -17,10 +17,33 @@
                     fx:     'scrollLeft', 
                     timeout: 5000
                 });
+                
                 $("#news_scroller").simplyScroll({
                     autoMode: 'loop',
                     horizontal: false
                 });
+                
+                $("#sumbit_button").click(function(e) {
+                    e.preventDefault();
+                    $(this).attr('disabled', 'disabled');
+                    $(this).parent().append('<img src="<?=base_url()?>images/ajax-loader.gif" alt="Šalje se..." id="ajax_loader"/>')
+                    $.post(
+                        "<?=base_url()?>srb/kontakt/process", 
+                        {
+                            firma   :   $("#firma").val(),
+                            ime     :   $("#ime").val(),
+                            email   :   $("#email").val(),
+                            br_tel  :   $("#br_tel").val(),
+                            poruka  :   $("#poruka").val()
+                        }, 
+                        function(return_data) {
+                            alert(return_data);
+                            $("#ajax_loader").remove();
+                            $("#sumbit_button").removeAttr('disabled');
+                        }
+                    );                    
+                });
+                
             });
         </script>
     </head>
@@ -92,7 +115,7 @@
                             </tr>
                             <tr>
                                 <td><label for="ime">Vaše ime:</label></td>
-                                <td><input type="text" name="ime" id="ime" placeholder="Ime Prezime"/></td>
+                                <td><input type="text" name="ime" id="ime" placeholder="Ime Prezime" required="required"/></td>
                             </tr>
                             <tr>
                                 <td><label for="email">Vaš e-mail:</label></td>
@@ -100,21 +123,21 @@
                             </tr>
                             <tr>
                                 <td><label for="br_tel">Vaš br. tel.:</label></td>
-                                <td><input type="text" name="br_tel" id="br_tel" placeholder="+381 11 555 6677"/></td>
+                                <td><input type="text" name="br_tel" id="br_tel" placeholder="+381 11 555 6677" required="required"/></td>
                             </tr>
                             <tr>
                                 <td colspan="2"><label for="poruka">Poruka:</label></td>
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <textarea name="poruka" id="poruka" rows="5" cols="40"></textarea>
+                                    <textarea name="poruka" id="poruka" rows="5" cols="40" required="required"></textarea>
                                 </td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td class="all_right">
                                     <input type="reset" value="Reset" />
-                                    <input type="submit" name="submit" value="Pošalji" />
+                                    <input type="submit" name="submit" value="Pošalji" id="sumbit_button" />
                                 </td>
                             </tr>
                         </table>                        
