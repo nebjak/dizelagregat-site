@@ -110,7 +110,7 @@
                     <form action="#" method="post">
                         <table>
                             <tr>
-                                <td style="width: 80px;"><label for="firma">Vaše ime:</label></td>
+                                <td style="width: 80px;"><label for="firma">Firma:</label></td>
                                 <td><input type="text" name="firma" id="firma" placeholder="Firma doo"/></td>
                             </tr>
                             <tr>
