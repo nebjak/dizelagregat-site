@@ -62,7 +62,7 @@
             </div>
             <div class="clear"></div>
             <div class="grid_12" id="box3">
-                <?=$this->load->view('srb/cycle_banner')?>
+                <?= $this->load->view('srb/cycle_banner') ?>
             </div>
         </div>
         <div id="box4">
@@ -73,7 +73,31 @@
                     </div>                    
                     <h1>Reference</h1>
                     <p>
-                        Sadržaj privremeno nedostupan!
+                    <ul>
+                        <li>GORŠTAK DOO</li>
+                        <li>PILE PROM DOO 100 kVA</li>
+                        <li>POLJOAUTO DOO 55 kVA</li>
+                        <li>POLJOAUTO DOO 40 kVA</li>
+                        <li>POLJOAUTO DOO 55 kVA</li>
+                        <li>LETAČ DOO</li>
+                        <li>UNITEC CNC DOO</li>
+                        <li>AGRAR KOMERC DOO 55 kVA</li>
+                        <li>ALEACOM DOO</li>
+                        <li>BIODEKOR DOO</li>
+                        <li>KNEZ PETROL DOO 25 kVA</li>
+                        <li>GRANIČAR AD 110 kVA</li>
+                        <li>ABM ELEKTRO 300 kVA</li>
+                        <li>MILGEN DOO</li>
+                        <li>SILAGRO DOO 400 kVA</li>
+                        <li>ELKTROVOLT DOO 70 kVA</li>
+                        <li>JP ŽELEZNICE SRBIJE 40 kVA </li>
+                        <li>OMEGA ELEKTRO DOO</li>
+                        <li>GP ZLATIBOR GRADNJA</li>
+                        <li>ROPER DOO 30 kVA</li>
+                        <li>TURKOVIĆ DOO 78 kVA</li>
+                        <li>TREMOMONT ELEKTRO DOO</li>
+                        <li>ZAVOD ZA HITNU MEDICINSKU POMOĆ NOVI SAD 33 kVA</li>
+                    </ul>                        
                     </p>                    
                 </div>
                 <div class="grid_3" id="box7">
