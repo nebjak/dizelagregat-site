@@ -62,15 +62,7 @@
             </div>
             <div class="clear"></div>
             <div class="grid_12" id="box3">                
-                <a href="srb/proizvodi_i_usluge">
-                    <img src="<?=base_url()?>images/prodaja.jpg" alt="Prodaja"/>
-                </a>
-                <a href="srb/servis">
-                    <img src="<?=base_url()?>images/servis.jpg" alt="Servis"/>
-                </a>
-                <a href="srb/rental">
-                    <img src="<?=base_url()?>images/iznajmljivanje.jpg" alt="Iznajmljivanje" />
-                </a>
+                <?=$this->load->view('srb/cycle_banner')?>
             </div>            
         </div>
         <div id="box4">
