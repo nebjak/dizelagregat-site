@@ -7,6 +7,6 @@ class Service extends CI_Controller {
     }
 
     function index() {
-        
+        $this->load->view('eng/service/index_page');
     }
 }

@@ -7,6 +7,6 @@ class Products extends CI_Controller {
     }
 
     function index() {
-        
+        $this->load->view('eng/products/index_page');
     }
 }

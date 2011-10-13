@@ -47,7 +47,7 @@
                     <tr>
                         <td style="width: 15%;">
                             <a href="#" id="current_page_language">SR</a>
-                            <a href="#">EN</a>
+                            <a href="<?=base_url()?>eng/service">EN</a>
                         </td>
                         <td style="width: 85%; text-align: right;">                        
                             <label for="username">Korisnicko ime:</label>

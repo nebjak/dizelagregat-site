@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Diesel generator sets :: Energoglobal doo - Novi Sad - Serbia</title>
+        <title>References :: Diesel generator sets :: Energoglobal doo - Novi Sad - Serbia</title>
         <link rel="stylesheet" href="<?= base_url() ?>css/reset.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/text.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/960.css" />
@@ -31,13 +31,13 @@
             </div>
             <div class="grid_8" id="box1">
                 <ul>
-                    <li class="current_page_item"><a href="<?= base_url() ?>eng/home">Home</a></li>
+                    <li><a href="<?= base_url() ?>eng/home">Home</a></li>
                     <li><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
                     <li><a href="<?= base_url() ?>eng/products">Products</a></li>
                     <li><a href="<?= base_url() ?>eng/rent">Rent</a></li>
                     <li><a href="<?= base_url() ?>eng/service">Service</a></li>
                     <li><a href="<?= base_url() ?>eng/support">Support</a></li>
-                    <li><a href="<?= base_url() ?>eng/references">References</a></li>
+                    <li class="current_page_item"><a href="<?= base_url() ?>eng/references">References</a></li>
                     <li><a href="<?= base_url() ?>eng/contact">Contact</a></li>
                 </ul>
             </div>
@@ -46,7 +46,7 @@
                     <table>
                         <tr>
                             <td style="width: 15%;">
-                                <a href="<?=base_url()?>srb/pocetna">SR</a>
+                                <a href="<?=base_url()?>srb/reference">SR</a>
                                 <a href="#" id="current_page_language">EN</a>
                             </td>
                             <td style="width: 85%; text-align: right;">                        
@@ -71,23 +71,33 @@
                     <div id="sub_menu">
                         Rent | Sale | Service
                     </div>
-                    <h1>Energoglobal doo</h1>
+                    <h1>References</h1>
                     <p>
-                        Energoglobal doo<br/>
-                        Kneza Miloša 33<br/>
-                        Novi Sad<br/>
-                        Serbia<br/>
-                    </p>
-                    <p>
-                        Tel: +381 21 499315<br/>
-                        Fax: +381 21 499315<br/>
-                        E-mail: office@energoglobal.com<br/>
-                        Web: <a href="http://www.energoglobal.com">www.energoglobal.com</a>
-                    </p>
-                    <p>
-                        PIB: 106644707<br/>
-                        MB: 206508000<br/>
-                        Br. računa: 340-11004902-47 (Erste Bank)
+                    <ul>
+                        <li>GORŠTAK DOO</li>
+                        <li>PILE PROM DOO 100 kVA</li>
+                        <li>POLJOAUTO DOO 55 kVA</li>
+                        <li>POLJOAUTO DOO 40 kVA</li>
+                        <li>POLJOAUTO DOO 55 kVA</li>
+                        <li>LETAČ DOO</li>
+                        <li>UNITEC CNC DOO</li>
+                        <li>AGRAR KOMERC DOO 55 kVA</li>
+                        <li>ALEACOM DOO</li>
+                        <li>BIODEKOR DOO</li>
+                        <li>KNEZ PETROL DOO 25 kVA</li>
+                        <li>GRANIČAR AD 110 kVA</li>
+                        <li>ABM ELEKTRO 300 kVA</li>
+                        <li>MILGEN DOO</li>
+                        <li>SILAGRO DOO 400 kVA</li>
+                        <li>ELKTROVOLT DOO 70 kVA</li>
+                        <li>JP ŽELEZNICE SRBIJE 40 kVA </li>
+                        <li>OMEGA ELEKTRO DOO</li>
+                        <li>GP ZLATIBOR GRADNJA</li>
+                        <li>ROPER DOO 30 kVA</li>
+                        <li>TURKOVIĆ DOO 78 kVA</li>
+                        <li>TREMOMONT ELEKTRO DOO</li>
+                        <li>ZAVOD ZA HITNU MEDICINSKU POMOĆ NOVI SAD 33 kVA</li>
+                    </ul>
                     </p>
                 </div>
                 <div class="grid_3" id="box7">
@@ -99,13 +109,13 @@
             <div class="container_12">
                 <div class="grid_7" id="box9">                    
                     <ul>
-                        <li class="current_page_item"><a href="<?= base_url() ?>eng/home">Home</a></li>
+                        <li><a href="<?= base_url() ?>eng/home">Home</a></li>
                         <li><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
                         <li><a href="<?= base_url() ?>eng/products">Products</a></li>
                         <li><a href="<?= base_url() ?>eng/rent">Rent</a></li>
                         <li><a href="<?= base_url() ?>eng/service">Service</a></li>
                         <li><a href="<?= base_url() ?>eng/support">Support</a></li>
-                        <li><a href="<?= base_url() ?>eng/references">References</a></li>
+                        <li class="current_page_item"><a href="<?= base_url() ?>eng/references">References</a></li>
                         <li><a href="<?= base_url() ?>eng/contact">Contact</a></li>
                     </ul>
                 </div>

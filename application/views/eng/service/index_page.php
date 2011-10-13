@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Diesel generator sets :: Energoglobal doo - Novi Sad - Serbia</title>
+        <title>Service and spare parts :: Diesel generator sets :: Energoglobal doo - Novi Sad - Serbia</title>
         <link rel="stylesheet" href="<?= base_url() ?>css/reset.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/text.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/960.css" />
@@ -31,11 +31,11 @@
             </div>
             <div class="grid_8" id="box1">
                 <ul>
-                    <li class="current_page_item"><a href="<?= base_url() ?>eng/home">Home</a></li>
+                    <li><a href="<?= base_url() ?>eng/home">Home</a></li>
                     <li><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
                     <li><a href="<?= base_url() ?>eng/products">Products</a></li>
                     <li><a href="<?= base_url() ?>eng/rent">Rent</a></li>
-                    <li><a href="<?= base_url() ?>eng/service">Service</a></li>
+                    <li class="current_page_item"><a href="<?= base_url() ?>eng/service">Service</a></li>
                     <li><a href="<?= base_url() ?>eng/support">Support</a></li>
                     <li><a href="<?= base_url() ?>eng/references">References</a></li>
                     <li><a href="<?= base_url() ?>eng/contact">Contact</a></li>
@@ -46,7 +46,7 @@
                     <table>
                         <tr>
                             <td style="width: 15%;">
-                                <a href="<?=base_url()?>srb/pocetna">SR</a>
+                                <a href="<?=base_url()?>srb/servis">SR</a>
                                 <a href="#" id="current_page_language">EN</a>
                             </td>
                             <td style="width: 85%; text-align: right;">                        
@@ -71,23 +71,28 @@
                     <div id="sub_menu">
                         Rent | Sale | Service
                     </div>
-                    <h1>Energoglobal doo</h1>
+                    <h1>Service and spare parts</h1>
                     <p>
-                        Energoglobal doo<br/>
-                        Kneza Miloša 33<br/>
-                        Novi Sad<br/>
-                        Serbia<br/>
+                        ENERGOGLOBAL is specialized in service and maintenance 
+                        of back-up energy sources as well as in provision of 
+                        reliable spare parts and auxiliary materials for this 
+                        purpose. Specialized demands for upgrade and refurbishment 
+                        of plants are also in ENERGOGLOBAL field of interest. 
+                        Our service division can reliably maintain back-up energy 
+                        plants upon your call or in planned way according to 
+                        gen-set maintenance contract.
                     </p>
                     <p>
-                        Tel: +381 21 499315<br/>
-                        Fax: +381 21 499315<br/>
-                        E-mail: office@energoglobal.com<br/>
-                        Web: <a href="http://www.energoglobal.com">www.energoglobal.com</a>
-                    </p>
-                    <p>
-                        PIB: 106644707<br/>
-                        MB: 206508000<br/>
-                        Br. računa: 340-11004902-47 (Erste Bank)
+                        Apart from wide variety of equipment to be installed and 
+                        properly used, we are one of the first companies that 
+                        introduced in-house-made remote data acquisition and 
+                        control system of MHP site via GSM network; 
+                        for example: in case of alarm, user (customer) receives 
+                        SMS about type of alarm. Start, stop and reset of alarms 
+                        and plant is also possible via GSM network. In addition 
+                        to that, we can provide company attest of gen-set as well 
+                        as accompanying certificate which are followed after set 
+                        of necessary tests.
                     </p>
                 </div>
                 <div class="grid_3" id="box7">
@@ -99,11 +104,11 @@
             <div class="container_12">
                 <div class="grid_7" id="box9">                    
                     <ul>
-                        <li class="current_page_item"><a href="<?= base_url() ?>eng/home">Home</a></li>
+                        <li><a href="<?= base_url() ?>eng/home">Home</a></li>
                         <li><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
                         <li><a href="<?= base_url() ?>eng/products">Products</a></li>
                         <li><a href="<?= base_url() ?>eng/rent">Rent</a></li>
-                        <li><a href="<?= base_url() ?>eng/service">Service</a></li>
+                        <li class="current_page_item"><a href="<?= base_url() ?>eng/service">Service</a></li>
                         <li><a href="<?= base_url() ?>eng/support">Support</a></li>
                         <li><a href="<?= base_url() ?>eng/references">References</a></li>
                         <li><a href="<?= base_url() ?>eng/contact">Contact</a></li>

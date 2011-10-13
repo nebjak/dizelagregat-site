@@ -7,6 +7,6 @@ class References extends CI_Controller {
     }
 
     function index() {
-        
+        $this->load->view('eng/references/index_page');
     }
 }

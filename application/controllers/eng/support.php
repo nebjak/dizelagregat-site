@@ -7,6 +7,6 @@ class Support extends CI_Controller {
     }
 
     function index() {
-        
+        $this->load->view('eng/support/index_page');
     }
 }

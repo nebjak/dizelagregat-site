@@ -7,6 +7,6 @@ class About_us extends CI_Controller {
     }
 
     function index() {
-        
+        $this->load->view('eng/about_us/index_page');
     }
 }

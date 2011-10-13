@@ -7,6 +7,6 @@ class Rent extends CI_Controller {
     }
 
     function index() {
-        
+        $this->load->view('eng/rent/index_page');
     }
 }

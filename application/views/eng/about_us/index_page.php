@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Diesel generator sets :: Energoglobal doo - Novi Sad - Serbia</title>
+        <title>About Us :: Diesel generator sets :: Energoglobal doo - Novi Sad - Serbia</title>
         <link rel="stylesheet" href="<?= base_url() ?>css/reset.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/text.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/960.css" />
@@ -31,8 +31,8 @@
             </div>
             <div class="grid_8" id="box1">
                 <ul>
-                    <li class="current_page_item"><a href="<?= base_url() ?>eng/home">Home</a></li>
-                    <li><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
+                    <li><a href="<?= base_url() ?>eng/home">Home</a></li>
+                    <li class="current_page_item"><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
                     <li><a href="<?= base_url() ?>eng/products">Products</a></li>
                     <li><a href="<?= base_url() ?>eng/rent">Rent</a></li>
                     <li><a href="<?= base_url() ?>eng/service">Service</a></li>
@@ -46,7 +46,7 @@
                     <table>
                         <tr>
                             <td style="width: 15%;">
-                                <a href="<?=base_url()?>srb/pocetna">SR</a>
+                                <a href="<?=base_url()?>srb/o_nama">SR</a>
                                 <a href="#" id="current_page_language">EN</a>
                             </td>
                             <td style="width: 85%; text-align: right;">                        
@@ -71,23 +71,30 @@
                     <div id="sub_menu">
                         Rent | Sale | Service
                     </div>
-                    <h1>Energoglobal doo</h1>
+                    <h1>About Us</h1>
+                    <h2>Company profile</h2>
                     <p>
-                        Energoglobal doo<br/>
-                        Kneza Miloša 33<br/>
-                        Novi Sad<br/>
-                        Serbia<br/>
+                        ENERGOGLOBAL was founded in alignment with main idea to 
+                        synthesize many years of experience in back-up electrical 
+                        energy sources (diesel gen-sets and UPS) and renewable 
+                        energy plants (mini- and micro- hydro-plants), biomass) 
+                        obtained by team of experts. Main goal of company is to 
+                        offer quality and affordable solutions for our customers. 
+                        Our partners are the most known foreign and domestic 
+                        companies with same aspirations as our company: 
+                        <strong>to be a step ahead</strong>.
                     </p>
+                    <h2>Mission and vision</h2>
                     <p>
-                        Tel: +381 21 499315<br/>
-                        Fax: +381 21 499315<br/>
-                        E-mail: office@energoglobal.com<br/>
-                        Web: <a href="http://www.energoglobal.com">www.energoglobal.com</a>
-                    </p>
-                    <p>
-                        PIB: 106644707<br/>
-                        MB: 206508000<br/>
-                        Br. računa: 340-11004902-47 (Erste Bank)
+                        Our mission is to apply our experience and quality 
+                        components as well as to support our clients in design, 
+                        selection and delivery of equipment and "turn-key" 
+                        installation, overhaul and service of gen-set and UPS 
+                        plants. <br/>
+                        Our vision is to continuously increase our 
+                        knowledge and application of new technologies in order 
+                        to satisfy our customers and clients and to become 
+                        leading company in back-up and alternative energy sources.
                     </p>
                 </div>
                 <div class="grid_3" id="box7">
@@ -99,8 +106,8 @@
             <div class="container_12">
                 <div class="grid_7" id="box9">                    
                     <ul>
-                        <li class="current_page_item"><a href="<?= base_url() ?>eng/home">Home</a></li>
-                        <li><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
+                        <li><a href="<?= base_url() ?>eng/home">Home</a></li>
+                        <li class="current_page_item"><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
                         <li><a href="<?= base_url() ?>eng/products">Products</a></li>
                         <li><a href="<?= base_url() ?>eng/rent">Rent</a></li>
                         <li><a href="<?= base_url() ?>eng/service">Service</a></li>
