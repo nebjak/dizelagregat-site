@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Kontakt :: Dizel agregati :: Energoglobal doo - Novi Sad - Srbija</title>
+        <title>Contact :: Diesel generator sets :: Energoglobal doo - Novi Sad - Serbia</title>
         <link rel="stylesheet" href="<?= base_url() ?>css/reset.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/text.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/960.css" />
@@ -17,7 +17,6 @@
                     fx:     'scrollLeft', 
                     timeout: 5000
                 });
-                
                 $("#news_scroller").simplyScroll({
                     autoMode: 'loop',
                     horizontal: false
@@ -26,15 +25,15 @@
                 $("#sumbit_button").click(function(e) {
                     e.preventDefault();
                     $(this).attr('disabled', 'disabled');
-                    $(this).parent().append('<img src="<?=base_url()?>images/ajax-loader.gif" alt="Šalje se..." id="ajax_loader"/>')
+                    $(this).parent().append('<img src="<?=base_url()?>images/ajax-loader.gif" alt="Sending..." id="ajax_loader"/>')
                     $.post(
-                        "<?=base_url()?>srb/kontakt/process", 
+                        "<?=base_url()?>eng/contact/process", 
                         {
-                            firma   :   $("#firma").val(),
-                            ime     :   $("#ime").val(),
-                            email   :   $("#email").val(),
-                            br_tel  :   $("#br_tel").val(),
-                            poruka  :   $("#poruka").val()
+                            company     :   $("#company").val(),
+                            name        :   $("#name").val(),
+                            email       :   $("#email").val(),
+                            phone_num   :   $("#phone_num").val(),
+                            message     :   $("#message").val()
                         }, 
                         function(return_data) {
                             alert(return_data);
@@ -42,25 +41,25 @@
                             $("#sumbit_button").removeAttr('disabled');
                         }
                     );                    
-                });                
+                });
             });
         </script>
     </head>
     <body>
         <div class="container_12">
             <div class="grid_4" id="box0">
-                <img src="<?= base_url() ?>images/logo.png" alt="Dizel agregari - Energoglobal doo" />
+                <img src="<?= base_url() ?>images/logo.png" alt="Diesel Gen-Sets - Energoglobal doo" />
             </div>
             <div class="grid_8" id="box1">
                 <ul>
-                    <li><a href="<?= base_url() ?>srb/pocetna">Početna</a></li>
-                    <li><a href="<?= base_url() ?>srb/o_nama">O nama</a></li>
-                    <li><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
-                    <li><a href="<?= base_url() ?>srb/rental">Rental</a></li>
-                    <li><a href="<?= base_url() ?>srb/servis">Servis</a></li>
-                    <li><a href="<?= base_url() ?>srb/podrska">Podrška</a></li>
-                    <li><a href="<?= base_url() ?>srb/reference">Reference</a></li>
-                    <li class="current_page_item"><a href="<?= base_url() ?>srb/kontakt">Kontakt</a></li>
+                    <li><a href="<?= base_url() ?>eng/home">Home</a></li>
+                    <li><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
+                    <li><a href="<?= base_url() ?>eng/products">Products</a></li>
+                    <li><a href="<?= base_url() ?>eng/rent">Rent</a></li>
+                    <li><a href="<?= base_url() ?>eng/service">Service</a></li>
+                    <li><a href="<?= base_url() ?>eng/support">Support</a></li>
+                    <li><a href="<?= base_url() ?>eng/references">References</a></li>
+                    <li class="current_page_item"><a href="<?= base_url() ?>eng/contact">Contact</a></li>
                 </ul>
             </div>
             <div class="grid_12" id="box2">
@@ -68,37 +67,37 @@
                     <table>
                         <tr>
                             <td style="width: 15%;">
-                                <a href="#" id="current_page_language">SR</a>
-                                <a href="<?=base_url()?>eng/contact">EN</a>
+                                <a href="<?=base_url()?>srb/kontakt">SR</a>
+                                <a href="#" id="current_page_language">EN</a>
                             </td>
                             <td style="width: 85%; text-align: right;">                        
-                                <label for="username">Korisnicko ime:</label>
+                                <label for="username">Username:</label>
                                 <input id="username" name="username" type="text" placeholder="username" />                        
-                                <label for="password">Lozinka:</label>
+                                <label for="password">Password:</label>
                                 <input id="password" name="password" type="password" placeholder="password" />                        
-                                <input type="submit" value="Prijavite se"/>
+                                <input type="submit" value="Login"/>
                             </td>
                         </tr>
                     </table>
                 </form>
             </div>
             <div class="clear"></div>
-            <div class="grid_12" id="box3">
-                <?=$this->load->view('srb/cycle_banner')?>
-            </div>
+            <div class="grid_12" id="box3">                
+                <?=$this->load->view('eng/cycle_banner')?>
+            </div>            
         </div>
         <div id="box4">
             <div class="container_12" id="box5">
                 <div class="grid_9" id="box6">
                     <div id="sub_menu">
-                        Iznajmljivanje | Prodaja | Servis
-                    </div>                    
-                    <h1>Kontakt</h1>
+                        Rent | Sale | Service
+                    </div>
+                    <h1>Energoglobal doo</h1>
                     <p>
-                        <strong>ENERGOGLOBAL DOO</strong><br/>
+                        Energoglobal doo<br/>
                         Kneza Miloša 33<br/>
-                        21000 Novi Sad<br/>
-                        Srbija<br/>
+                        Novi Sad<br/>
+                        Serbia<br/>
                     </p>
                     <p>
                         Tel: +381 21 499315<br/>
@@ -115,34 +114,34 @@
                     <form action="#" method="post">
                         <table>
                             <tr>
-                                <td style="width: 80px;"><label for="firma">Firma:</label></td>
-                                <td><input type="text" name="firma" id="firma" placeholder="Firma doo"/></td>
+                                <td style="width: 80px;"><label for="company">Company:</label></td>
+                                <td><input type="text" name="company" id="company" placeholder="Company Ltd"/></td>
                             </tr>
                             <tr>
-                                <td><label for="ime">Vaše ime:</label></td>
-                                <td><input type="text" name="ime" id="ime" placeholder="Ime Prezime" required="required"/></td>
+                                <td><label for="name">Name:</label></td>
+                                <td><input type="text" name="name" id="name" placeholder="John Doe" required="required"/></td>
                             </tr>
                             <tr>
-                                <td><label for="email">Vaš e-mail:</label></td>
+                                <td><label for="email">E-mail:</label></td>
                                 <td><input type="email" name="email" id="email" placeholder="name@example.com"/></td>
                             </tr>
                             <tr>
-                                <td><label for="br_tel">Vaš br. tel.:</label></td>
-                                <td><input type="text" name="br_tel" id="br_tel" placeholder="+381 11 555 6677" required="required"/></td>
+                                <td><label for="phone_num">Phone num.:</label></td>
+                                <td><input type="text" name="phone_num" id="phone_num" placeholder="+381 11 555 6677" required="required"/></td>
                             </tr>
                             <tr>
-                                <td colspan="2"><label for="poruka">Poruka:</label></td>
+                                <td colspan="2"><label for="message">Message:</label></td>
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <textarea name="poruka" id="poruka" rows="5" cols="40" required="required"></textarea>
+                                    <textarea name="message" id="message" rows="5" cols="40" required="required"></textarea>
                                 </td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td class="all_right">
                                     <input type="reset" value="Reset" />
-                                    <input type="submit" name="submit" value="Pošalji" id="sumbit_button" />
+                                    <input type="submit" name="submit" value="Send" id="sumbit_button" />
                                 </td>
                             </tr>
                         </table>                        
@@ -150,7 +149,7 @@
                     </p>
                 </div>
                 <div class="grid_3" id="box7">
-                    <?= $this->load->view('srb/news_scroller') ?>
+                    <?=$this->load->view('eng/news_scroller')?>
                 </div>
             </div>
         </div>
@@ -158,19 +157,19 @@
             <div class="container_12">
                 <div class="grid_7" id="box9">                    
                     <ul>
-                        <li><a href="<?= base_url() ?>srb/pocetna">Početna</a></li>
-                        <li><a href="<?= base_url() ?>srb/o_nama">O nama</a></li>
-                        <li><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
-                        <li><a href="<?= base_url() ?>srb/rental">Rental</a></li>
-                        <li><a href="<?= base_url() ?>srb/servis">Servis</a></li>
-                        <li><a href="<?= base_url() ?>srb/podrska">Podrška</a></li>
-                        <li><a href="<?= base_url() ?>srb/reference">Reference</a></li>
-                        <li class="current_page_item"><a href="<?= base_url() ?>srb/kontakt">Kontakt</a></li>
+                        <li><a href="<?= base_url() ?>eng/home">Home</a></li>
+                        <li><a href="<?= base_url() ?>eng/about_us">About Us</a></li>
+                        <li><a href="<?= base_url() ?>eng/products">Products</a></li>
+                        <li><a href="<?= base_url() ?>eng/rent">Rent</a></li>
+                        <li><a href="<?= base_url() ?>eng/service">Service</a></li>
+                        <li><a href="<?= base_url() ?>eng/support">Support</a></li>
+                        <li><a href="<?= base_url() ?>eng/references">References</a></li>
+                        <li class="current_page_item"><a href="<?= base_url() ?>eng/contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="grid_5" id="box10">
                     <p>
-                        &copy; Energoglobal doo | Ažurirano: <?= SITE_LAST_UPDATE ?> | Design by Baseline / code by nebjak
+                        &copy; Energoglobal doo | Updated: <?= SITE_LAST_UPDATE ?> | Design by Baseline / code by nebjak
                     </p>
                 </div>
             </div>
