@@ -102,9 +102,15 @@
                         Srbija<br/>
                     </p>
                     <p>
-                        +381 21 499315<br/>
-                        office@energoglobal.com<br/>
-                        www.energoglobal.com
+                        Tel: +381 21 499315<br/>
+                        Fax: +381 21 499315<br/>
+                        E-mail: office@energoglobal.com<br/>
+                        Web: <a href="http://www.energoglobal.com">www.energoglobal.com</a>
+                    </p>
+                    <p>
+                        PIB: 106644707<br/>
+                        MB: 206508000<br/>
+                        Br. računa: 340-11004902-47 (Erste Bank)
                     </p>
                     <p>
                     <form action="#" method="post">
