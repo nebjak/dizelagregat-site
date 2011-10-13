@@ -42,8 +42,7 @@
                             $("#sumbit_button").removeAttr('disabled');
                         }
                     );                    
-                });
-                
+                });                
             });
         </script>
     </head>
