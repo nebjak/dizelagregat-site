@@ -27,7 +27,7 @@
     <body>
         <div class="container_12">
             <div class="grid_4" id="box0">
-                <img src="<?=base_url()?>images/logo.png" alt="Dizel agregari - Energoglobal doo" />
+                <img src="<?=base_url()?>images/logo.png" alt="Dizel agregati - Energoglobal doo" />
             </div>
             <div class="grid_8" id="box1">
                 <ul>
@@ -47,7 +47,7 @@
                     <tr>
                         <td style="width: 15%;">
                             <a href="#" id="current_page_language">SR</a>
-                            <a href="#">EN</a>
+                            <a href="<?=base_url()?>eng/about_us">EN</a>
                         </td>
                         <td style="width: 85%; text-align: right;">                        
                             <label for="username">Korisnicko ime:</label>
