@@ -73,7 +73,9 @@
                     </div>
                     <h1>Products</h1>
                     <p>
-                        Content currently unavailable.
+                        We send offer upon receipt of offer request by client. 
+                        Please, contact us via Contact page or directly via mail,
+                        phone or fax.
                     </p>
                 </div>
                 <div class="grid_3" id="box7">
