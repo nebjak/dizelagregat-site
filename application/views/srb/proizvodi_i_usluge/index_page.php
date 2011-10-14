@@ -73,7 +73,9 @@
                     </div>                    
                     <h1>Proizvodi i usluge</h1>
                     <p>
-                        Sadržaj privremeno nedostupan!
+                        Pripremamo ponude po zahtevu kupca. Molim Vas da nas 
+                        kontakirate preko kontakt strane ili direktno na mail, 
+                        telefon ili fax.
                     </p>                    
                 </div>
                 <div class="grid_3" id="box7">
