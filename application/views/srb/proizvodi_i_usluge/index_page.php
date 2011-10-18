@@ -20,7 +20,7 @@
                 $("#news_scroller").simplyScroll({
                     autoMode: 'loop',
                     horizontal: false
-                });
+                });                
             });
         </script>
     </head>
