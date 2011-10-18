@@ -41,7 +41,7 @@
                 <ul>
                     <li><a href="<?= base_url() ?>srb/pocetna">Početna</a></li>
                     <li><a href="<?= base_url() ?>srb/o_nama">O nama</a></li>
-                    <li class="current_page_item"><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                    <li><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
                     <li><a href="<?= base_url() ?>srb/rental">Rental</a></li>
                     <li><a href="<?= base_url() ?>srb/servis">Servis</a></li>
                     <li><a href="<?= base_url() ?>srb/podrska">Podrška</a></li>
@@ -79,7 +79,7 @@
                     <div id="sub_menu">
                         Iznajmljivanje | Prodaja | Servis
                     </div>                    
-                    <h1>Zahtev za ponudu prodaja</h1>                    
+                    <h1>Zahtev za ponudu rental</h1>                    
                     <p>
                     <?=form_open('srb/zahtev_za_ponudu/rental')?>
                     <table>
@@ -421,7 +421,7 @@
                     <ul>
                         <li><a href="<?= base_url() ?>srb/pocetna">Početna</a></li>
                         <li><a href="<?= base_url() ?>srb/o_nama">O nama</a></li>
-                        <li class="current_page_item"><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                        <li><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
                         <li><a href="<?= base_url() ?>srb/rental">Rental</a></li>
                         <li><a href="<?= base_url() ?>srb/servis">Servis</a></li>
                         <li><a href="<?= base_url() ?>srb/podrska">Podrška</a></li>

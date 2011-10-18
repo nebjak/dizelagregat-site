@@ -134,6 +134,51 @@ class Zahtev_za_ponudu extends CI_Controller {
     }
     
     function servis() {
+        $this->form_validation->set_rules('proizvodjac', 'Proizvođač agregata', 'trim|required');
+        $this->form_validation->set_rules('tip', 'Tip agregata', 'trim|required');
+        $this->form_validation->set_rules('snaga', 'Snaga agregata', 'trim|required');
+        $this->form_validation->set_rules('u_kvaru', 'u_kvaru', 'trim');
+        $this->form_validation->set_rules('garancija', 'garancija', 'trim');
+        $this->form_validation->set_rules('dodatni_zahtevi', 'dodatni_zahtevi', 'trim');
+        $this->form_validation->set_rules('firma', 'Naziv firme', 'trim|required|min_length[3]');
+        $this->form_validation->set_rules('k_osoba', 'Naziv firme', 'trim|required|min_length[6]');
+        $this->form_validation->set_rules('pib', 'PIB', 'trim|numeric');
+        $this->form_validation->set_rules('adresa', 'Adresa', 'trim');
+        $this->form_validation->set_rules('grad', 'Grad', 'trim');
+        $this->form_validation->set_rules('telefon', 'Telefon', 'trim|required');
+        $this->form_validation->set_rules('telefon2', 'Telefon 2', 'trim');
+        $this->form_validation->set_rules('email', 'E-mail', 'trim|valid_emails');
+        $this->form_validation->set_rules('web_site', 'Web sajt', 'trim');
         
+        
+        if($this->form_validation->run()) {
+            $data['ponuda_za'] = 'SERVIS';
+            $data['proizvodjac'] = $this->input->post('proizvodjac');
+            $data['tip'] = $this->input->post('tip');
+            $data['snaga'] = $this->input->post('snaga');
+            $data['u_kvaru'] = $this->input->post('u_kvaru');
+            $data['garancija'] = $this->input->post('garancija');
+            $data['dodatni_zahtevi'] = $this->input->post('dodatni_zahtevi');
+            $data['firma'] = $this->input->post('firma');
+            $data['k_osoba'] = $this->input->post('k_osoba');
+            $data['pib'] = $this->input->post('pib');
+            $data['adresa'] = $this->input->post('adresa');
+            $data['grad'] = $this->input->post('grad');
+            $data['telefon'] = $this->input->post('telefon');
+            $data['telefon2'] = $this->input->post('telefon2');
+            $data['email'] = $this->input->post('email');
+            $data['web_site'] = $this->input->post('web_site');
+            
+            if($this->zahtev_za_ponudu_model->send($data)) {
+                $this->session->set_flashdata('message', 'Vaš zahtev je uspešno prosleđen');
+                redirect('srb/zahtev_za_ponudu/servis');
+            }
+            else {
+                $this->session->set_flashdata('message', 'Vaš zahtev nije poslat');
+                redirect('srb/zahtev_za_ponudu/servis');
+            }            
+        }
+            
+        $this->load->view('srb/zahtev_za_ponudu/servis_form');
     }
 }
