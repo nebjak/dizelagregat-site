@@ -152,11 +152,22 @@ a:hover {
     width: 700px;
     padding: 8px 10px 10px 0px;
     position: absolute;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: bold;
     text-align: right;
     text-transform: uppercase;
     color: #cdcdcd;
+}
+
+#sub_menu a {
+    color: #cdcdcd;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sub_menu a:hover {
+    border-bottom: 1px dotted #5ecbf4;
+    color: #5ecbf4;
 }
 
 #box6 h1 {

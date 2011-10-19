@@ -69,7 +69,7 @@
             <div class="container_12" id="box5">
                 <div class="grid_9" id="box6">
                     <div id="sub_menu">
-                        Iznajmljivanje | Prodaja | Servis
+                        <?=$this->load->view('srb/sub_menu')?>
                     </div>                    
                     <h1>O nama</h1>
                     <h2>Profil kompanije</h2>

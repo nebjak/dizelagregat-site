@@ -2,7 +2,7 @@
 
 class Zahtev_za_ponudu_model extends CI_Model {
     
-    var $email_to = 'nebjak@localhost';
+    var $email_to = 'ponude@energoglobal.com';
     
     function __construct() {
         parent::__construct();
