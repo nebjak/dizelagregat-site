@@ -79,7 +79,7 @@
                     <div id="sub_menu">
                         Iznajmljivanje | Prodaja | Servis
                     </div>                    
-                    <h1>Zahtev za ponudu servis</h1>                    
+                    <h1>Zahtev za ponudu - servis</h1>                    
                     <p>
                     <?=form_open('srb/zahtev_za_ponudu/servis')?>
                     <table>
@@ -159,9 +159,9 @@
                             <td><?=form_error('telefon', '<span style="color:yellow;">','</span>')?></td>
                         </tr>
                         <tr>
-                            <td><label for="telefon2">Telefon 2:</label></td>
-                            <td><?=form_input('telefon2', set_value('telefon2'), 'id="telefon2" placeholder="+381 21 5553333"')?></td>
-                            <td><?=form_error('telefon2', '<span style="color:yellow;">','</span>')?></td>
+                            <td><label for="mobilni_telefon">Mobilni telefon:</label></td>
+                            <td><?=form_input('mobilni_telefon', set_value('mobilni_telefon'), 'id="mobilni_telefon" placeholder="+381 65 5553333"')?></td>
+                            <td><?=form_error('mobilni_telefon', '<span style="color:yellow;">','</span>')?></td>
                         </tr>
                         <tr>
                             <td><label for="email">E-mail:</label></td>

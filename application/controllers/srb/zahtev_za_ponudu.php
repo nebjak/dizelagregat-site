@@ -36,7 +36,7 @@ class Zahtev_za_ponudu extends CI_Controller {
         $this->form_validation->set_rules('adresa', 'Adresa', 'trim');
         $this->form_validation->set_rules('grad', 'Grad', 'trim');
         $this->form_validation->set_rules('telefon', 'Telefon', 'trim|required');
-        $this->form_validation->set_rules('telefon2', 'Telefon 2', 'trim');
+        $this->form_validation->set_rules('mobilni_telefon', 'Mobilni telefon', 'trim');
         $this->form_validation->set_rules('email', 'E-mail', 'trim|valid_emails');
         $this->form_validation->set_rules('web_site', 'Web sajt', 'trim');
         
@@ -62,7 +62,7 @@ class Zahtev_za_ponudu extends CI_Controller {
             $data['adresa'] = $this->input->post('adresa');
             $data['grad'] = $this->input->post('grad');
             $data['telefon'] = $this->input->post('telefon');
-            $data['telefon2'] = $this->input->post('telefon2');
+            $data['mobilni_telefon'] = $this->input->post('mobilni_telefon');
             $data['email'] = $this->input->post('email');
             $data['web_site'] = $this->input->post('web_site');
             
@@ -86,8 +86,8 @@ class Zahtev_za_ponudu extends CI_Controller {
         $this->form_validation->set_rules('konstrukcija', 'Konstrukcija', 'trim|required');
         $this->form_validation->set_rules('start', 'Startovanje', 'trim|required');
         $this->form_validation->set_rules('lokacija', 'Lokacija ugradnje', 'trim');
-        $this->form_validation->set_rules('vreme_isporuke', 'Potrebno vreme isporuke', 'trim');
-        $this->form_validation->set_rules('period', 'Vreme rentiranja', 'trim|required');
+        $this->form_validation->set_rules('datum_pocetka_rentala', 'Datum početka rentala', 'trim');
+        $this->form_validation->set_rules('period', 'Trajanje rentiranja', 'trim|required');
         $this->form_validation->set_rules('dodatni_zahtevi', 'Dodatni zahtevi', 'trim');
         $this->form_validation->set_rules('firma', 'Naziv firme', 'trim|required|min_length[3]');
         $this->form_validation->set_rules('k_osoba', 'Naziv firme', 'trim|required|min_length[6]');
@@ -95,7 +95,7 @@ class Zahtev_za_ponudu extends CI_Controller {
         $this->form_validation->set_rules('adresa', 'Adresa', 'trim');
         $this->form_validation->set_rules('grad', 'Grad', 'trim');
         $this->form_validation->set_rules('telefon', 'Telefon', 'trim|required');
-        $this->form_validation->set_rules('telefon2', 'Telefon 2', 'trim');
+        $this->form_validation->set_rules('mobilni_telefon', 'Mobilni telefon', 'trim');
         $this->form_validation->set_rules('email', 'E-mail', 'trim|valid_emails');
         $this->form_validation->set_rules('web_site', 'Web sajt', 'trim');
         
@@ -107,7 +107,7 @@ class Zahtev_za_ponudu extends CI_Controller {
             $data['konstrukcija'] = $this->input->post('konstrukcija');
             $data['start'] = $this->input->post('start');
             $data['lokacija'] = $this->input->post('lokacija');
-            $data['vreme_isporuke'] = $this->input->post('vreme_isporuke');
+            $data['datum_pocetka_rentala'] = $this->input->post('datum_pocetka_rentala');
             $data['period'] = $this->input->post('period');
             $data['dodatni_zahtevi'] = $this->input->post('dodatni_zahtevi');
             $data['firma'] = $this->input->post('firma');
@@ -116,7 +116,7 @@ class Zahtev_za_ponudu extends CI_Controller {
             $data['adresa'] = $this->input->post('adresa');
             $data['grad'] = $this->input->post('grad');
             $data['telefon'] = $this->input->post('telefon');
-            $data['telefon2'] = $this->input->post('telefon2');
+            $data['mobilni_telefon'] = $this->input->post('mobilni_telefon');
             $data['email'] = $this->input->post('email');
             $data['web_site'] = $this->input->post('web_site');
             
@@ -146,7 +146,7 @@ class Zahtev_za_ponudu extends CI_Controller {
         $this->form_validation->set_rules('adresa', 'Adresa', 'trim');
         $this->form_validation->set_rules('grad', 'Grad', 'trim');
         $this->form_validation->set_rules('telefon', 'Telefon', 'trim|required');
-        $this->form_validation->set_rules('telefon2', 'Telefon 2', 'trim');
+        $this->form_validation->set_rules('mobilni_telefon', 'Mobilni telefon', 'trim');
         $this->form_validation->set_rules('email', 'E-mail', 'trim|valid_emails');
         $this->form_validation->set_rules('web_site', 'Web sajt', 'trim');
         
@@ -165,7 +165,7 @@ class Zahtev_za_ponudu extends CI_Controller {
             $data['adresa'] = $this->input->post('adresa');
             $data['grad'] = $this->input->post('grad');
             $data['telefon'] = $this->input->post('telefon');
-            $data['telefon2'] = $this->input->post('telefon2');
+            $data['mobilni_telefon'] = $this->input->post('mobilni_telefon');
             $data['email'] = $this->input->post('email');
             $data['web_site'] = $this->input->post('web_site');
             
