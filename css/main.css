@@ -17,6 +17,24 @@ a:hover {
   text-decoration: none;
 }
 
+#session_message {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    background-color:#ffffff;
+    border:3px solid #ff6600;
+    border-radius: 10px;
+    opacity:0.9;
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+    color: #000;
+    margin-left: -150px;
+}
+
 #box0 {
     margin-left: 30px;
     width: 280px;
@@ -134,11 +152,22 @@ a:hover {
     width: 700px;
     padding: 8px 10px 10px 0px;
     position: absolute;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: bold;
     text-align: right;
     text-transform: uppercase;
     color: #cdcdcd;
+}
+
+#sub_menu a {
+    color: #cdcdcd;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sub_menu a:hover {
+    border-bottom: 1px dotted #5ecbf4;
+    color: #5ecbf4;
 }
 
 #box6 h1 {
