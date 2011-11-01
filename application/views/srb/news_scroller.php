@@ -1,43 +1,33 @@
 <h2>Novosti</h2>
 <ul id="news_scroller">
     <li>
-        <h3><a href="#">Nalov 01</a></h3>
+        <h3><a href="#">Leoni - Prokuplje</a></h3>
         <p>
-            01.01.2011.<br/>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-            accusantium doloremque laudantium, totam rem aperiam, eaque 
-            ipsa quae ab illo inventore veritatis et quasi architecto 
-            beatae vitae dicta sunt explicabo.
+            20.09.2011.<br/>
+            Isporučen i pušten u pogon agreta od 300kVA za fabriku 
+            <strong>Leoni</strong> - Prokuplje
         </p>
     </li>
     <li>
-        <h3><a href="#">Nalov 02</a></h3>
+        <h3><a href="#">Hitna Pomoć - Novi Sad</a></h3>
         <p>
-            01.02.2011.<br/>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-            accusantium doloremque laudantium, totam rem aperiam, eaque 
-            ipsa quae ab illo inventore veritatis et quasi architecto 
-            beatae vitae dicta sunt explicabo.
+            24.04.2011.<br/>
+            Isporučen i pušten u pogon sistem za rezervno napajanje sa dizel 
+            agregatom od 33kVA za dispečerski centar Hitne Pomoći u Novom Sadu.
         </p>
     </li>
     <li>
-        <h3><a href="#">Nalov 02</a></h3>
+        <h3><a href="#">Extra ponuda</a></h3>
         <p>
-            01.03.2011.<br/>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-            accusantium doloremque laudantium, totam rem aperiam, eaque 
-            ipsa quae ab illo inventore veritatis et quasi architecto 
-            beatae vitae dicta sunt explicabo.
+            25.10.2011.<br/>
+            Polovni dizel agregat različitih tipova i snaga!
         </p>
     </li>
     <li>
-        <h3><a href="#">Nalov 04</a></h3>
+        <h3><a href="#">UPS uređaji</a></h3>
         <p>
-            02.04.2011.<br/>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-            accusantium doloremque laudantium, totam rem aperiam, eaque 
-            ipsa quae ab illo inventore veritatis et quasi architecto 
-            beatae vitae dicta sunt explicabo.
+            31.10.2011.<br/>
+            U svojoj ponudi od sada imamo i UPS uređaje renomiranog svetskog proizvođača.
         </p>
-    </li>
+    </li>    
 </ul>                    
