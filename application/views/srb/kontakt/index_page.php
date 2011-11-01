@@ -148,6 +148,7 @@
                         </table>                        
                     </form>
                     </p>
+                    <iframe width="700" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Energoglobal+doo,+%D0%91%D1%83%D0%BB%D0%B5%D0%B2%D0%B0%D1%80+%D0%BA%D0%BD%D0%B5%D0%B7%D0%B0+%D0%9C%D0%B8%D0%BB%D0%BE%D1%88%D0%B0,+Novi+Sad,+%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B0&amp;aq=0&amp;ie=UTF8&amp;hq=Energoglobal+doo,&amp;hnear=Bulevar+%D0%BAneza+Milo%C5%A1a,+Novi+Sad,+South+Backa+district,+Vojvodina,+Serbia&amp;t=m&amp;vpsrc=6&amp;ll=45.26945,19.819508&amp;spn=0.042284,0.120163&amp;z=13&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Energoglobal+doo,+%D0%91%D1%83%D0%BB%D0%B5%D0%B2%D0%B0%D1%80+%D0%BA%D0%BD%D0%B5%D0%B7%D0%B0+%D0%9C%D0%B8%D0%BB%D0%BE%D1%88%D0%B0,+Novi+Sad,+%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B0&amp;aq=0&amp;ie=UTF8&amp;hq=Energoglobal+doo,&amp;hnear=Bulevar+%D0%BAneza+Milo%C5%A1a,+Novi+Sad,+South+Backa+district,+Vojvodina,+Serbia&amp;t=m&amp;vpsrc=6&amp;ll=45.26945,19.819508&amp;spn=0.042284,0.120163&amp;z=13&amp;iwloc=A" style="color:#0000FF;text-align:left">Pogledajte veću mapu</a></small>
                 </div>
                 <div class="grid_3" id="box7">
                     <?= $this->load->view('srb/news_scroller') ?>
