@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Servis :: Dizel agregati :: Energoglobal doo - Novi Sad - Srbija</title>
+        <title>Servis i usluge :: Dizel agregati :: Energoglobal doo - Novi Sad - Srbija</title>
         <link rel="stylesheet" href="<?=base_url()?>css/reset.css" />
         <link rel="stylesheet" href="<?=base_url()?>css/text.css" />
         <link rel="stylesheet" href="<?=base_url()?>css/960.css" />
@@ -33,9 +33,9 @@
                 <ul>
                     <li><a href="<?=base_url()?>srb/pocetna">Početna</a></li>
                     <li><a href="<?=base_url()?>srb/o_nama">O nama</a></li>
-                    <li><a href="<?=base_url()?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                    <li><a href="<?=base_url()?>srb/proizvodi">Proizvodi</a></li>
                     <li><a href="<?=base_url()?>srb/rental">Rental</a></li>
-                    <li class="current_page_item"><a href="<?=base_url()?>srb/servis">Servis</a></li>
+                    <li class="current_page_item"><a href="<?=base_url()?>srb/servis_i_usluge">Servis i usluge</a></li>
                     <li><a href="<?=base_url()?>srb/podrska">Podrška</a></li>
                     <li><a href="<?=base_url()?>srb/reference">Reference</a></li>
                     <li><a href="<?=base_url()?>srb/kontakt">Kontakt</a></li>
@@ -106,9 +106,9 @@
                     <ul>
                         <li><a href="<?=base_url()?>srb/pocetna">Početna</a></li>
                         <li><a href="<?=base_url()?>srb/o_nama">O nama</a></li>
-                        <li><a href="<?=base_url()?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                        <li><a href="<?=base_url()?>srb/proizvodi">Proizvodi</a></li>
                         <li><a href="<?=base_url()?>srb/rental">Rental</a></li>
-                        <li class="current_page_item"><a href="<?=base_url()?>srb/servis">Servis</a></li>
+                        <li class="current_page_item"><a href="<?=base_url()?>srb/servis_i_usluge">Servis i usluge</a></li>
                         <li><a href="<?=base_url()?>srb/podrska">Podrška</a></li>
                         <li><a href="<?=base_url()?>srb/reference">Reference</a></li>
                         <li><a href="<?=base_url()?>srb/kontakt">Kontakt</a></li>
