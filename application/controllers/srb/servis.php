@@ -7,6 +7,6 @@ class Servis extends CI_Controller {
     }
     
     function index() {
-        $this->load->view('srb/servis/index_page');
+        $this->load->view('srb/servis_i_usluge/index_page');
     }
 }

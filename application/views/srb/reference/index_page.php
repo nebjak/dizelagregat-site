@@ -33,9 +33,9 @@
                 <ul>
                     <li><a href="<?= base_url() ?>srb/pocetna">Početna</a></li>
                     <li><a href="<?= base_url() ?>srb/o_nama">O nama</a></li>
-                    <li><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                    <li><a href="<?= base_url() ?>srb/proizvodi">Proizvodi</a></li>
                     <li><a href="<?= base_url() ?>srb/rental">Rental</a></li>
-                    <li><a href="<?= base_url() ?>srb/servis">Servis</a></li>
+                    <li><a href="<?= base_url() ?>srb/servis_i_usluge">Servis i usluge</a></li>
                     <li><a href="<?= base_url() ?>srb/podrska">Podrška</a></li>
                     <li class="current_page_item"><a href="<?= base_url() ?>srb/reference">Reference</a></li>
                     <li><a href="<?= base_url() ?>srb/kontakt">Kontakt</a></li>
