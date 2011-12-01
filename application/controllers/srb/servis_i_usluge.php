@@ -1,6 +1,6 @@
 <?php
 
-class Servis extends CI_Controller {
+class Servis_i_usluge extends CI_Controller {
     
     function __construct() {
         parent::__construct();
