@@ -75,7 +75,35 @@
                     <p>
                         U slučaju da ste korisnik naših usluga podrške, molimo 
                         Vas da se prijavite sa Vašim korisničkim imenom i lozinkom.
-                    </p>                    
+                    </p>
+                    <div class="okvir1 grid_4">
+                        <strong>Dežurni servisni telefon</strong><br/>
+                        +381 69 696277 
+                    </div>
+                    <div class="okvir1 grid_4">                        
+                        <strong>Čedomir Lalović</strong><br/>
+                        Kontrolnoupravljački sistemi / tehnička rešenja<br/>
+                        +381 69 696 211<br/>
+                        cedomir.lalovic@energoglobal.com
+                    </div>
+                    <div class="okvir1 grid_4">
+                        <strong>Miodrag Sakić</strong><br/>
+                        Priprema / tehnička podrška projektantima / agregatske  stanice<br/>
+                        +381 69 696004<br/>
+                        miodrag.sakic@energoglobal.com
+                    </div>
+                    <div class="okvir1 grid_4">
+                        <strong>Vladimir Đurić</strong><br/>
+                        Servisna Podrška<br/>
+                        +381 69 696229<br/>
+                        vladimir.djuric@energoglobal.com
+                    </div>
+                    <div class="okvir1 grid_4">
+                        <strong>Nebojša Jakovljević</strong><br/>
+                        Logistika i podrška<br/>
+                        +381 69 696225<br/>
+                        nebojsa.jakovljevic@energoglobal.com
+                    </div>
                 </div>
                 <div class="grid_3" id="box7">
                     <?= $this->load->view('srb/news_scroller') ?>
