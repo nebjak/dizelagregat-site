@@ -46,7 +46,7 @@
                     <table>
                         <tr>
                             <td style="width: 15%;">
-                                <a href="<?=base_url()?>srb/servis">SR</a>
+                                <a href="<?=base_url()?>srb/servis_i_usluge">SR</a>
                                 <a href="#" id="current_page_language">EN</a>
                             </td>
                             <td style="width: 85%; text-align: right;">                        

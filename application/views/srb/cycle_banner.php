@@ -1,7 +1,7 @@
-<a href="<?= base_url() ?>srb/proizvodi_i_usluge">
+<a href="<?= base_url() ?>srb/proizvodi">
     <img src="<?= base_url() ?>images/prodaja.jpg" alt="Prodaja" title="Prodaja"/>
 </a>
-<a href="<?= base_url() ?>srb/servis">
+<a href="<?= base_url() ?>srb/servis_i_usluge">
     <img src="<?= base_url() ?>images/servis.jpg" alt="Servis" title="Servis"/>
 </a>
 <a href="<?= base_url() ?>srb/rental">
