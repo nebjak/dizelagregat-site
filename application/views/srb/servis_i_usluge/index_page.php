@@ -72,6 +72,28 @@
                         <?=$this->load->view('srb/sub_menu')?>
                     </div>                    
                     <h1>Servis i usluge</h1>
+                    <p>
+                        EnergoGlobal je specijalizovan i za vršenje usluga  
+                        servisa i održavanja rezervnih izvora napajanja, kao i 
+                        nabavku odgovorajućih rezervnih delova i pomoćnog materijala 
+                        za te potrebe. Specijalni zahtevi za nadogradnjom i 
+                        modernizacijom tehničkih rešenja su u opisu delatnosti 
+                        EnergoGlobala, dok naša servisna služba može pouzdano 
+                        održavati pomoćne izvore napajanja, namenski ili tokom 
+                        cele godine u slučaju pravljenja posebnih celogodišnjih 
+                        ugovora o održavanju agregata.
+                    </p>
+                    <p>
+                        Pored velikog izbora opreme koju ugrađujemo i koristimo, 
+                        takođe smo jedni od prvih koji smo uveli sisteme za 
+                        daljinski nadzor i upravljanje putem GSM mreže, tako da 
+                        u slučaju pojave alarma korisnik dobija SMS o tipu 
+                        nastalog alarma. Pokretanje, zaustavljanje pomoćnih izvora 
+                        napajanja i resetovanje grešaka, takođe je omogućeno putem 
+                        GSM mreže mobilne telefonije. Možemo obezbediti i izradu 
+                        sertifikata o ispitavanju agregata, gde je isti dobijen 
+                        nakon seta neophodnih ispitivanja.
+                    </p>
                     <h2>Redovno i havarisko održavanje agregatskih stanica:</h2>
                     <p>
                         Energoglobal ze  je za svoje korisnike pripremio  više nivoa održavanja dizel agregatskih postrojenja.
