@@ -71,7 +71,7 @@
                     <div id="sub_menu">
                         <?=$this->load->view('srb/sub_menu')?>
                     </div>                    
-                    <h1>Servis i rezervni delovi</h1>
+                    <h1>Servis i usluge</h1>
                     <p>
                         EnergoGlobal je specijalizovan i za vršenje usluga  
                         servisa i održavanja rezervnih izvora napajanja, kao i 
@@ -94,6 +94,33 @@
                         sertifikata o ispitavanju agregata, gde je isti dobijen 
                         nakon seta neophodnih ispitivanja.
                     </p>
+                    <h2>Redovno i havarisko održavanje agregatskih stanica:</h2>
+                    <p>
+                        Energoglobal je za svoje korisnike pripremio više nivoa održavanja dizel agregatskih postrojenja.
+                    </p>
+                    <h2>Automatizacija i remont</h2>
+                    <p>
+                        Remont i automatizacija postojećih dizel agregtaskih stanica ....
+                    </p>
+                    <h2>Rezervni delovi</h2>
+                    <ul>
+                        <li>Filteri</li>
+                        <li>Ulje</li>
+                        <li>Kontroleri</li>
+                        <li>Generatori</li>
+                        <li>Regulatori napona</li>
+                        <li>Punjači baterija</li>
+                        <li>Grejači rashladne tečnosti</li>
+                        <li>Ostalo</li>
+                    </ul>
+                    <h2>Projektovanje i izrada dizel-agregatskih stanica:</h2>
+                    <ul>
+                        <li>Idejna rešenja sa odabirom opreme</li>
+                        <li>Gradjevinski radovi</li>
+                        <li>Isporuka i montaža opreme</li>
+                        <li>Mašinski radovi</li>
+                        <li>Elektro radovi</li>
+                    </ul>
                 </div>
                 <div class="grid_3" id="box7">
                     <?=$this->load->view('srb/news_scroller')?>
