@@ -96,11 +96,11 @@
                     </p>
                     <h2>Redovno i havarisko održavanje agregatskih stanica:</h2>
                     <p>
-                        Energoglobal ze  je za svoje korisnike pripremio  više nivoa održavanja dizel agregatskih postrojenja.
+                        Energoglobal je za svoje korisnike pripremio više nivoa održavanja dizel agregatskih postrojenja.
                     </p>
                     <h2>Automatizacija i remont</h2>
                     <p>
-                        Remont  i automatizacija postojećih dizel agregtaskih stanica ....
+                        Remont i automatizacija postojećih dizel agregtaskih stanica ....
                     </p>
                     <h2>Rezervni delovi</h2>
                     <ul>
