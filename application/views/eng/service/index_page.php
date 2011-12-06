@@ -46,7 +46,7 @@
                     <table>
                         <tr>
                             <td style="width: 15%;">
-                                <a href="<?=base_url()?>srb/servis">SR</a>
+                                <a href="<?=base_url()?>srb/servis_i_usluge">SR</a>
                                 <a href="#" id="current_page_language">EN</a>
                             </td>
                             <td style="width: 85%; text-align: right;">                        
@@ -94,6 +94,33 @@
                         as accompanying certificate which are followed after set 
                         of necessary tests.
                     </p>
+                    <h2>Regular maintenance of gen-set stations:</h2>
+                    <p>
+                        Energoglobal is prepared for its users several levels of maintenance of gen-set stations.
+                    </p>
+                    <h2>Automation and repair</h2>
+                    <p>
+                        Repair and automation of used diesel generator sets.
+                    </p>
+                    <h2>Spare parts</h2>
+                    <ul>
+                        <li>Filters</li>
+                        <li>Oil</li>
+                        <li>Controllers</li>
+                        <li>Generators</li>
+                        <li>Voltage regulators</li>
+                        <li>Battery charger</li>
+                        <li>Coolant Heater</li>
+                        <li>Other parts</li>
+                    </ul>
+                    <h2>Design and production of diesel generator sets:</h2>
+                    <ul>
+                        <li>Design solutions with the selection of equipment</li>
+                        <li>Constructioni</li>
+                        <li>Delivery and installation of equipment</li>
+                        <li>Mechanical works</li>
+                        <li>Electrical works</li>
+                    </ul>
                 </div>
                 <div class="grid_3" id="box7">
                     <?=$this->load->view('eng/news_scroller')?>

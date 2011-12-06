@@ -55,9 +55,9 @@
                 <ul>
                     <li><a href="<?= base_url() ?>srb/pocetna">Početna</a></li>
                     <li><a href="<?= base_url() ?>srb/o_nama">O nama</a></li>
-                    <li><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                    <li><a href="<?= base_url() ?>srb/proizvodi">Proizvodi</a></li>
                     <li><a href="<?= base_url() ?>srb/rental">Rental</a></li>
-                    <li><a href="<?= base_url() ?>srb/servis">Servis</a></li>
+                    <li><a href="<?= base_url() ?>srb/servis_i_usluge">Servis i usluge</a></li>
                     <li><a href="<?= base_url() ?>srb/podrska">Podrška</a></li>
                     <li><a href="<?= base_url() ?>srb/reference">Reference</a></li>
                     <li class="current_page_item"><a href="<?= base_url() ?>srb/kontakt">Kontakt</a></li>
@@ -109,7 +109,8 @@
                     <p>
                         PIB: 106644707<br/>
                         MB: 20650800<br/>
-                        Br. računa: 340-11004902-47 (Erste Bank)
+                        Br. računa: 340-11004902-47 (Erste Bank)<br/>
+                        Br. računa: 165-25624-94 (Hypo Alpe Adria Bank)
                     </p>
                     <p>
                     <form action="#" method="post">
@@ -161,9 +162,9 @@
                     <ul>
                         <li><a href="<?= base_url() ?>srb/pocetna">Početna</a></li>
                         <li><a href="<?= base_url() ?>srb/o_nama">O nama</a></li>
-                        <li><a href="<?= base_url() ?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                        <li><a href="<?= base_url() ?>srb/proizvodi">Proizvodi</a></li>
                         <li><a href="<?= base_url() ?>srb/rental">Rental</a></li>
-                        <li><a href="<?= base_url() ?>srb/servis">Servis</a></li>
+                        <li><a href="<?= base_url() ?>srb/servis_i_usluge">Servis i usluge</a></li>
                         <li><a href="<?= base_url() ?>srb/podrska">Podrška</a></li>
                         <li><a href="<?= base_url() ?>srb/reference">Reference</a></li>
                         <li class="current_page_item"><a href="<?= base_url() ?>srb/kontakt">Kontakt</a></li>

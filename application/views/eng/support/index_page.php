@@ -76,6 +76,35 @@
                         In case you are user of our services, please log in in 
                         appropriate field of this page.
                     </p>                    
+                    <div class="okvir1 grid_4">
+                        <strong>24/7 Service phone</strong><br/>
+                        +381 69 696277 
+                    </div>
+                    <div class="okvir1 grid_4">                        
+                        <strong>Čedomir Lalović</strong><br/>
+                        Management Control Systems / technical solutions<br/>
+                        +381 69 696 211<br/>
+                        cedomir.lalovic@energoglobal.com
+                    </div>
+                    <div class="okvir1 grid_4">
+                        <strong>Miodrag Sakić</strong><br/>
+                        Preparation / technical support to designers / gen-set stations<br/>
+                        +381 69 696004<br/>
+                        miodrag.sakic@energoglobal.com
+                    </div>
+                    <div class="okvir1 grid_4">
+                        <strong>Vladimir Đurić</strong><br/>
+                        Service Support<br/>
+                        +381 69 696229<br/>
+                        vladimir.djuric@energoglobal.com
+                    </div>
+                    <div class="okvir1 grid_4">
+                        <strong>Nebojša Jakovljević</strong><br/>
+                        Logistics and Support<br/>
+                        +381 69 696225<br/>
+                        nebojsa.jakovljevic@energoglobal.com
+                    </div>
+
                 </div>
                 <div class="grid_3" id="box7">
                     <?=$this->load->view('eng/news_scroller')?>

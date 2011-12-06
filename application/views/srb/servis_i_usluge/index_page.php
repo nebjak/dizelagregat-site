@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Servis :: Dizel agregati :: Energoglobal doo - Novi Sad - Srbija</title>
+        <title>Servis i usluge :: Dizel agregati :: Energoglobal doo - Novi Sad - Srbija</title>
         <link rel="stylesheet" href="<?=base_url()?>css/reset.css" />
         <link rel="stylesheet" href="<?=base_url()?>css/text.css" />
         <link rel="stylesheet" href="<?=base_url()?>css/960.css" />
@@ -33,9 +33,9 @@
                 <ul>
                     <li><a href="<?=base_url()?>srb/pocetna">Početna</a></li>
                     <li><a href="<?=base_url()?>srb/o_nama">O nama</a></li>
-                    <li><a href="<?=base_url()?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                    <li><a href="<?=base_url()?>srb/proizvodi">Proizvodi</a></li>
                     <li><a href="<?=base_url()?>srb/rental">Rental</a></li>
-                    <li class="current_page_item"><a href="<?=base_url()?>srb/servis">Servis</a></li>
+                    <li class="current_page_item"><a href="<?=base_url()?>srb/servis_i_usluge">Servis i usluge</a></li>
                     <li><a href="<?=base_url()?>srb/podrska">Podrška</a></li>
                     <li><a href="<?=base_url()?>srb/reference">Reference</a></li>
                     <li><a href="<?=base_url()?>srb/kontakt">Kontakt</a></li>
@@ -71,7 +71,7 @@
                     <div id="sub_menu">
                         <?=$this->load->view('srb/sub_menu')?>
                     </div>                    
-                    <h1>Servis i rezervni delovi</h1>
+                    <h1>Servis i usluge</h1>
                     <p>
                         EnergoGlobal je specijalizovan i za vršenje usluga  
                         servisa i održavanja rezervnih izvora napajanja, kao i 
@@ -94,6 +94,33 @@
                         sertifikata o ispitavanju agregata, gde je isti dobijen 
                         nakon seta neophodnih ispitivanja.
                     </p>
+                    <h2>Redovno i havarisko održavanje agregatskih stanica:</h2>
+                    <p>
+                        Energoglobal je za svoje korisnike pripremio više nivoa održavanja dizel agregatskih postrojenja.
+                    </p>
+                    <h2>Automatizacija i remont</h2>
+                    <p>
+                        Remont i automatizacija postojećih dizel agregtaskih stanica ....
+                    </p>
+                    <h2>Rezervni delovi</h2>
+                    <ul>
+                        <li>Filteri</li>
+                        <li>Ulje</li>
+                        <li>Kontroleri</li>
+                        <li>Generatori</li>
+                        <li>Regulatori napona</li>
+                        <li>Punjači baterija</li>
+                        <li>Grejači rashladne tečnosti</li>
+                        <li>Ostalo</li>
+                    </ul>
+                    <h2>Projektovanje i izrada dizel-agregatskih stanica:</h2>
+                    <ul>
+                        <li>Idejna rešenja sa odabirom opreme</li>
+                        <li>Gradjevinski radovi</li>
+                        <li>Isporuka i montaža opreme</li>
+                        <li>Mašinski radovi</li>
+                        <li>Elektro radovi</li>
+                    </ul>
                 </div>
                 <div class="grid_3" id="box7">
                     <?=$this->load->view('srb/news_scroller')?>
@@ -106,9 +133,9 @@
                     <ul>
                         <li><a href="<?=base_url()?>srb/pocetna">Početna</a></li>
                         <li><a href="<?=base_url()?>srb/o_nama">O nama</a></li>
-                        <li><a href="<?=base_url()?>srb/proizvodi_i_usluge">Proizvodi i usluge</a></li>
+                        <li><a href="<?=base_url()?>srb/proizvodi">Proizvodi</a></li>
                         <li><a href="<?=base_url()?>srb/rental">Rental</a></li>
-                        <li class="current_page_item"><a href="<?=base_url()?>srb/servis">Servis</a></li>
+                        <li class="current_page_item"><a href="<?=base_url()?>srb/servis_i_usluge">Servis i usluge</a></li>
                         <li><a href="<?=base_url()?>srb/podrska">Podrška</a></li>
                         <li><a href="<?=base_url()?>srb/reference">Reference</a></li>
                         <li><a href="<?=base_url()?>srb/kontakt">Kontakt</a></li>

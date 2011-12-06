@@ -108,7 +108,8 @@
                     <p>
                         PIB: 106644707<br/>
                         MB: 206508000<br/>
-                        Br. računa: 340-11004902-47 (Erste Bank)
+                        Br. računa: 340-11004902-47 (Erste Bank)<br/>
+                        Br. računa: 165-25624-94 (Hypo Alpe Adria Bank)
                     </p>
                     <p>
                     <form action="#" method="post">
