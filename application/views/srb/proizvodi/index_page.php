@@ -24,7 +24,7 @@
                     horizontal: false
                 });                
                 $("#tabs").tabs();
-                $("#accordion").accordion({
+                $(".accordion").accordion({
                     collapsible: true,
                     autoHeight: false
                 });
@@ -79,133 +79,132 @@
                         <?= $this->load->view('srb/sub_menu') ?>
                     </div>                    
                     <h1>Proizvodi i usluge</h1>
-                    <div id="tabs">
+                    <div id="tabs" style="margin-bottom: 20px;">
                         <ul>
-                            <li><a href="#tabs-1">Nunc tincidunt</a></li>
-                            <li><a href="#tabs-2">Proin dolor</a></li>
-                            <li><a href="#tabs-3">Aenean lacinia</a></li>
+                            <li><a href="#dizel">Dizel agregati</a></li>
+                            <li><a href="#benzin">Benzinski agregati</a></li>
                         </ul>
-                        <div id="tabs-1">
-                            <div id="accordion">
-                                <h3><a href="#">Section 1</a></h3>
+                        <div id="dizel">
+                            <div class="accordion">
+                                <h3><a href="#">PERKINS Powered</a></h3>
                                 <div>
-                                    <p>
-                                        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                                        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                                        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                                        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                                    </p>
+                                    <table summary="Perkins powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($perkins_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
                                 </div>
-                                <h3><a href="#">Section 2</a></h3>
+                                <h3><a href="#">IVECO Powered</a></h3>
                                 <div>
-                                    <p>
-                                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-                                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-                                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-                                        suscipit faucibus urna.
-                                    </p>
-                                    <p>
-                                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-                                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-                                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-                                        suscipit faucibus urna.
-                                    </p>
-                                    <p>
-                                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-                                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-                                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-                                        suscipit faucibus urna.
-                                    </p>
-                                    <p>
-                                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-                                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-                                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-                                        suscipit faucibus urna.
-                                    </p>
-                                    <p>
-                                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-                                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-                                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-                                        suscipit faucibus urna.
-                                    </p>
+                                    <table summary="Iveco powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($iveco_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
                                 </div>
-                                <h3><a href="#">Section 3</a></h3>
+                                <h3><a href="#">DOOSAN Powered</a></h3>
                                 <div>
-                                    <p>
-                                        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-                                        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-                                        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-                                        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-                                    </p>
-                                    <ul>
-                                        <li>List item one</li>
-                                        <li>List item two</li>
-                                        <li>List item three</li>
-                                    </ul>
+                                    <table summary="Doosan powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($doosan_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
                                 </div>
-                                <h3><a href="#">Section 4</a></h3>
+                                <h3><a href="#">MTU MERCEDES</a></h3>
                                 <div>
-                                    <p>
-                                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-                                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-                                        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-                                        mauris vel est.
-                                    </p>
-                                    <p>
-                                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                                        inceptos himenaeos.
-                                    </p>
+                                    <table summary="MTU Mercedes powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($mtu_mercedes_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                                <h3><a href="#">LOMBARDINI Powered</a></h3>
+                                <div>
+                                    <table summary="Lombardini powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($lombardini_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 1, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
                                 </div>
                             </div>
                         </div>
-                        <div id="tabs-2">
-                            <p>
-                                Morbi tincidunt, dui sit amet facilisis feugiat, 
-                                odio metus gravida ante, ut pharetra massa metus 
-                                id nunc. Duis scelerisque molestie turpis. Sed 
-                                fringilla, massa eget luctus malesuada, metus 
-                                eros molestie lectus, ut tempus eros massa ut 
-                                dolor. Aenean aliquet fringilla sem. Suspendisse 
-                                sed ligula in ligula suscipit aliquam. Praesent 
-                                in eros vestibulum mi adipiscing adipiscing. 
-                                Morbi facilisis. Curabitur ornare consequat nunc. 
-                                Aenean vel metus. Ut posuere viverra nulla. 
-                                Aliquam erat volutpat. Pellentesque convallis. 
-                                Maecenas feugiat, tellus pellentesque pretium 
-                                posuere, felis lorem euismod felis, eu ornare 
-                                leo nisi vel felis. Mauris consectetur tortor et 
-                                purus.
-                            </p>
-                        </div>
-                        <div id="tabs-3">
-                            <p>
-                                Mauris eleifend est et turpis. Duis id erat. 
-                                Suspendisse potenti. Aliquam vulputate, pede 
-                                vel vehicula accumsan, mi neque rutrum erat, eu 
-                                congue orci lorem eget lorem. Vestibulum non 
-                                ante. Class aptent taciti sociosqu ad litora 
-                                torquent per conubia nostra, per inceptos 
-                                himenaeos. Fusce sodales. Quisque eu urna vel 
-                                enim commodo pellentesque. Praesent eu risus 
-                                hendrerit ligula tempus pretium. Curabitur lorem 
-                                enim, pretium nec, feugiat nec, luctus a, lacus.
-                            </p>
-                            <p>
-                                Duis cursus. Maecenas ligula eros, blandit nec, 
-                                pharetra at, semper at, magna. Nullam ac lacus. 
-                                Nulla facilisi. Praesent viverra justo vitae 
-                                neque. Praesent blandit adipiscing velit. 
-                                Suspendisse potenti. Donec mattis, pede vel 
-                                pharetra blandit, magna ligula faucibus eros, id 
-                                euismod lacus dolor eget odio. Nam scelerisque. 
-                                Donec non libero sed nulla mattis commodo. Ut 
-                                sagittis. Donec nisi lectus, feugiat porttitor, 
-                                tempor ac, tempor vitae, pede. Aenean vehicula 
-                                velit eu tellus interdum rutrum. Maecenas commodo. 
-                                Pellentesque nec elit. Fusce in lacus. Vivamus a 
-                                libero vitae lectus hendrerit hendrerit.
-                            </p>
+                        <div id="benzin">
+                            <div class="accordion">
+                                <h3><a href="#">HONDA Powered</a></h3>
+                                <div>
+                                    <table summary="Honda powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($honda_powered as $a): ?>
+                                            <tr>
+                                                <td><?= $a->tip ?></td>
+                                                <td><?= number_format($a->snaga, 1, ',', '.') ?> kVA</td>
+                                                <td><?= $a->proizvodjac_motora ?></td>
+                                                <td><?= $a->proizvodjac_generatora ?></td>
+                                            </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                            </div>            
                         </div>
                     </div>
                 </div>
