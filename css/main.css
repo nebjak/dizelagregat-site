@@ -292,3 +292,19 @@ a:hover {
 .all_justify {
     text-align: justify;
 }
+
+table.agregati tr>th {
+    background: #80c1df;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px 0px 3px 0px;
+}
+
+table.agregati td {
+    padding: 2px;
+    text-align: center;
+}
+
+table.agregati tr:nth-child(odd) {
+    background: #cadbe1;
+} 
