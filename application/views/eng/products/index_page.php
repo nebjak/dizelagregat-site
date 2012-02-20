@@ -8,7 +8,9 @@
         <link rel="stylesheet" href="<?= base_url() ?>css/960.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/main.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/jquery.simplyscroll-1.0.4.css" />
+        <link rel="stylesheet" href="<?= base_url() ?>css/redmond/jquery-ui.css" />
         <script type="text/javascript" src="<?= base_url() ?>js/jquery.min.js"></script>
+        <script type="text/javascript" src="<?= base_url() ?>js/jquery-ui.min.js"></script>
         <script type="text/javascript" src="<?= base_url() ?>js/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="<?= base_url() ?>js/jquery.simplyscroll-1.0.4.min.js"></script>
         <script type="text/javascript">
@@ -20,6 +22,11 @@
                 $("#news_scroller").simplyScroll({
                     autoMode: 'loop',
                     horizontal: false
+                });
+                $("#tabs").tabs();
+                $(".accordion").accordion({
+                    collapsible: true,
+                    autoHeight: false
                 });
             });
         </script>
@@ -72,11 +79,139 @@
                         Rent | Sale | Service
                     </div>
                     <h1>Products</h1>
-                    <p>
-                        We send offer upon receipt of offer request by client. 
-                        Please, contact us via Contact page or directly via mail,
-                        phone or fax.
-                    </p>
+                    <div id="tabs" style="margin-bottom: 20px;">
+                        <ul>
+                            <li><a href="#dizel">Diesel gen-sets</a></li>
+                            <li><a href="#benzin">Gasoline gen-sets</a></li>
+                        </ul>
+                        <div id="dizel">
+                            <div class="accordion">
+                                <h3><a href="#">PERKINS Powered</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/perkins.jpg" alt="Perkins Logo" />
+                                    <table summary="Perkins powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Model</th>
+                                            <th>Rated Power</th>
+                                            <th>Motor</th>
+                                            <th>Alternator</th>
+                                        </tr>
+                                        <? foreach($perkins_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0)?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                                <h3><a href="#">IVECO Powered</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/iveco.jpg" alt="Iveco Logo" />
+                                    <table summary="Iveco powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Model</th>
+                                            <th>Rated Power</th>
+                                            <th>Motor</th>
+                                            <th>Alternator</th>
+                                        </tr>
+                                        <? foreach($iveco_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0)?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                                <h3><a href="#">DOOSAN Powered</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/doosan.jpg" alt="Doosan Logo" />
+                                    <table summary="Doosan powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Model</th>
+                                            <th>Rated Power</th>
+                                            <th>Motor</th>
+                                            <th>Alternator</th>
+                                        </tr>
+                                        <? foreach($doosan_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0)?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                                <h3><a href="#">MTU MERCEDES</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/mtu.jpg" alt="MTU Mercedes Logo"/>
+                                    <table summary="MTU Mercedes powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Model</th>
+                                            <th>Rated Power</th>
+                                            <th>Motor</th>
+                                            <th>Alternator</th>
+                                        </tr>
+                                        <? foreach($mtu_mercedes_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0)?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                                <h3><a href="#">LOMBARDINI Powered</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/lombardini.jpg" alt="Lombardini Logo" />
+                                    <table summary="Lombardini powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Model</th>
+                                            <th>Rated Power</th>
+                                            <th>Motor</th>
+                                            <th>Alternator</th>
+                                        </tr>
+                                        <? foreach($lombardini_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 1)?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="benzin">
+                            <div class="accordion">
+                                <h3><a href="#">HONDA Powered</a></h3>
+                                <div>
+                                    <table summary="Honda powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Model</th>
+                                            <th>Rated Power</th>
+                                            <th>Motor</th>
+                                            <th>Alternator</th>
+                                        </tr>
+                                        <? foreach($honda_powered as $a): ?>
+                                            <tr>
+                                                <td><?= $a->tip ?></td>
+                                                <td><?= number_format($a->snaga, 1) ?> kVA</td>
+                                                <td><?= $a->proizvodjac_motora ?></td>
+                                                <td><?= $a->proizvodjac_generatora ?></td>
+                                            </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
                 </div>
                 <div class="grid_3" id="box7">
                     <?=$this->load->view('eng/news_scroller')?>

@@ -8,7 +8,9 @@
         <link rel="stylesheet" href="<?= base_url() ?>css/960.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/main.css" />
         <link rel="stylesheet" href="<?= base_url() ?>css/jquery.simplyscroll-1.0.4.css" />
+        <link rel="stylesheet" href="<?= base_url() ?>css/redmond/jquery-ui.css" />
         <script type="text/javascript" src="<?= base_url() ?>js/jquery.min.js"></script>
+        <script type="text/javascript" src="<?= base_url() ?>js/jquery-ui.min.js"></script>
         <script type="text/javascript" src="<?= base_url() ?>js/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="<?= base_url() ?>js/jquery.simplyscroll-1.0.4.min.js"></script>
         <script type="text/javascript">
@@ -21,6 +23,11 @@
                     autoMode: 'loop',
                     horizontal: false
                 });                
+                $("#tabs").tabs();
+                $(".accordion").accordion({
+                    collapsible: true,
+                    autoHeight: false
+                });
             });
         </script>
     </head>
@@ -47,7 +54,7 @@
                         <tr>
                             <td style="width: 15%;">
                                 <a href="#" id="current_page_language">SR</a>
-                                <a href="<?=base_url()?>eng/products">EN</a>
+                                <a href="<?= base_url() ?>eng/products">EN</a>
                             </td>
                             <td style="width: 85%; text-align: right;">                        
                                 <label for="username">Korisnicko ime:</label>
@@ -62,21 +69,149 @@
             </div>
             <div class="clear"></div>
             <div class="grid_12" id="box3">
-                <?=$this->load->view('srb/cycle_banner')?>
+                <?= $this->load->view('srb/cycle_banner') ?>
             </div>
         </div>
         <div id="box4">
             <div class="container_12" id="box5">
                 <div class="grid_9" id="box6">
                     <div id="sub_menu">
-                        <?=$this->load->view('srb/sub_menu')?>
+                        <?= $this->load->view('srb/sub_menu') ?>
                     </div>                    
                     <h1>Proizvodi i usluge</h1>
-                    <p>
-                        Pripremamo ponude po zahtevu kupca. Molim Vas da nas 
-                        kontakirate preko kontakt strane ili direktno na mail, 
-                        telefon ili fax.
-                    </p>                    
+                    <div id="tabs" style="margin-bottom: 20px;">
+                        <ul>
+                            <li><a href="#dizel">Dizel agregati</a></li>
+                            <li><a href="#benzin">Benzinski agregati</a></li>
+                        </ul>
+                        <div id="dizel">
+                            <div class="accordion">
+                                <h3><a href="#">PERKINS Powered</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/perkins.jpg" alt="Perkins Logo" />
+                                    <table summary="Perkins powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($perkins_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                                <h3><a href="#">IVECO Powered</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/iveco.jpg" alt="Iveco Logo" />
+                                    <table summary="Iveco powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($iveco_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                                <h3><a href="#">DOOSAN Powered</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/doosan.jpg" alt="Doosan Logo" />
+                                    <table summary="Doosan powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($doosan_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                                <h3><a href="#">MTU MERCEDES</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/mtu.jpg" alt="MTU Mercedes Logo"/>
+                                    <table summary="MTU Mercedes powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($mtu_mercedes_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 0, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                                <h3><a href="#">LOMBARDINI Powered</a></h3>
+                                <div>
+                                    <img src="<?=base_url()?>images/logos/lombardini.jpg" alt="Lombardini Logo" />
+                                    <table summary="Lombardini powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($lombardini_powered as $a): ?>
+                                        <tr>
+                                            <td><?=$a->tip?></td>
+                                            <td><?=number_format($a->snaga, 1, ',', '.')?> kVA</td>
+                                            <td><?=$a->proizvodjac_motora?></td>
+                                            <td><?=$a->proizvodjac_generatora?></td>
+                                        </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="benzin">
+                            <div class="accordion">
+                                <h3><a href="#">HONDA Powered</a></h3>
+                                <div>
+                                    <table summary="Honda powered" style="width: 100%;" class="agregati">
+                                        <tr>
+                                            <th>Tip</th>
+                                            <th>Snaga</th>
+                                            <th>Motor</th>
+                                            <th>Generator</th>
+                                        </tr>
+                                        <? foreach($honda_powered as $a): ?>
+                                            <tr>
+                                                <td><?= $a->tip ?></td>
+                                                <td><?= number_format($a->snaga, 1, ',', '.') ?> kVA</td>
+                                                <td><?= $a->proizvodjac_motora ?></td>
+                                                <td><?= $a->proizvodjac_generatora ?></td>
+                                            </tr>
+                                        <? endforeach; ?>
+                                    </table>
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
                 </div>
                 <div class="grid_3" id="box7">
                     <?= $this->load->view('srb/news_scroller') ?>
