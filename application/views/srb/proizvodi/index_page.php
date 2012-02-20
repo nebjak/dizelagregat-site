@@ -88,6 +88,7 @@
                             <div class="accordion">
                                 <h3><a href="#">PERKINS Powered</a></h3>
                                 <div>
+                                    <img src="<?=base_url()?>images/logos/perkins.jpg" alt="Perkins Logo" />
                                     <table summary="Perkins powered" style="width: 100%;" class="agregati">
                                         <tr>
                                             <th>Tip</th>
@@ -107,6 +108,7 @@
                                 </div>
                                 <h3><a href="#">IVECO Powered</a></h3>
                                 <div>
+                                    <img src="<?=base_url()?>images/logos/iveco.jpg" alt="Iveco Logo" />
                                     <table summary="Iveco powered" style="width: 100%;" class="agregati">
                                         <tr>
                                             <th>Tip</th>
@@ -126,6 +128,7 @@
                                 </div>
                                 <h3><a href="#">DOOSAN Powered</a></h3>
                                 <div>
+                                    <img src="<?=base_url()?>images/logos/doosan.jpg" alt="Doosan Logo" />
                                     <table summary="Doosan powered" style="width: 100%;" class="agregati">
                                         <tr>
                                             <th>Tip</th>
@@ -145,6 +148,7 @@
                                 </div>
                                 <h3><a href="#">MTU MERCEDES</a></h3>
                                 <div>
+                                    <img src="<?=base_url()?>images/logos/mtu.jpg" alt="MTU Mercedes Logo"/>
                                     <table summary="MTU Mercedes powered" style="width: 100%;" class="agregati">
                                         <tr>
                                             <th>Tip</th>
@@ -164,6 +168,7 @@
                                 </div>
                                 <h3><a href="#">LOMBARDINI Powered</a></h3>
                                 <div>
+                                    <img src="<?=base_url()?>images/logos/lombardini.jpg" alt="Lombardini Logo" />
                                     <table summary="Lombardini powered" style="width: 100%;" class="agregati">
                                         <tr>
                                             <th>Tip</th>
