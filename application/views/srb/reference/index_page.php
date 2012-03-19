@@ -90,7 +90,7 @@
                         <li>MILGEN DOO</li>
                         <li>SILAGRO DOO 400 kVA</li>
                         <li>ELKTROVOLT DOO 70 kVA</li>
-                        <li>JP ŽELEZNICE SRBIJE rekonstrukcija agregat 40 kVA </li>
+                        <li>JP ŽELEZNICE SRBIJE rekonstrukcija agregata 40 kVA </li>
                         <li>OMEGA ELEKTRO DOO</li>
                         <li>GP ZLATIBOR GRADNJA</li>
                         <li>ROPER DOO 30 kVA</li>
