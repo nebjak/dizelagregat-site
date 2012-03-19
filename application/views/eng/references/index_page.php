@@ -90,13 +90,39 @@
                         <li>MILGEN DOO</li>
                         <li>SILAGRO DOO 400 kVA</li>
                         <li>ELKTROVOLT DOO 70 kVA</li>
-                        <li>JP ŽELEZNICE SRBIJE 40 kVA </li>
+                        <li>JP ŽELEZNICE SRBIJE reconstruction of gen-set 40 kVA </li>
                         <li>OMEGA ELEKTRO DOO</li>
                         <li>GP ZLATIBOR GRADNJA</li>
                         <li>ROPER DOO 30 kVA</li>
                         <li>TURKOVIĆ DOO 78 kVA</li>
                         <li>TREMOMONT ELEKTRO DOO</li>
                         <li>ZAVOD ZA HITNU MEDICINSKU POMOĆ NOVI SAD 33 kVA</li>
+                        <li>TEKIJANKA-KLADOVO 55 kVA</li>
+                        <li>FARMAKOM MB 160 kVA</li>
+                        <li>RD TIM LIVE 22 kVA</li>
+                        <li>RD TIM LIVE 15 kVA</li>
+                        <li>KNEZ PETROL 25 kVA</li>
+                        <li>KNEZ PETROL 25 kVA</li>
+                        <li>VOĆAR KOPAONIK 10 kVA</li>
+                        <li>ELSA SYSTEM 10 kVA</li>
+                        <li>DECO 33 kVA</li>
+                        <li>ENERGOTEHNIKA JUŽNA BAČKA automatisation of two gen-sets 250 kVA</li>
+                        <li>NEOLINK 30 kVA</li>
+                        <li>TURBINA automatisation of gen-set 330 kVA</li>
+                        <li>JKP VODOVOD PARAĆIN 8 kVA</li>
+                        <li>MEDIUS STARA PAZOVA 17 kVA</li>
+                        <li>BOŽANOVIĆ 50 kVA</li>
+                        <li>UNIPROMET 138 kVA</li>
+                        <li>DILEKTRA 3 kW</li>
+                        <li>KNEZ PETROL 125 kVA</li>
+                        <li>TRANSPORT GOLUBOVIĆ transformer 400 kVA</li>
+                        <li>TARKETT automatisation</li>
+                        <li>ALIMOIJE 250 kVA</li>
+                        <li>VIS COMPANY 20 kVA</li>
+                        <li>ELKO TIM 40 kVA</li>
+                        <li>JKP BEOGRADSKI VODOVOD I KANALIZACIJA 8 kVA</li>
+                        <li>RP TEHNOMETAL 160 kVA</li>
+                        <li>ELEKTROTIM 500 kVA</li>
                     </ul>
                     </p>
                 </div>
