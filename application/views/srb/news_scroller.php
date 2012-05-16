@@ -7,7 +7,7 @@
             Energoglobal doo je ove godine jedan od izlagača na 79. međunarodnom
             poljoprivrednom sajmu. Pozivamo vas da nas posetite!<br>
             <strong>Lokacija: Otvoreni prostor 4/I</strong><br>
-            <a href="http://www.flickr.com/photos/energoglobal/sets/72157629753434652/show/" target="_blank" style="color:yellow;">
+            <a href="http://j.mp/LajAFb" target="_blank" style="color:yellow;">
                 <strong>Galerija fotografija</strong>
             </a>
         </p>
