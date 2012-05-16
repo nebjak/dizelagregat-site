@@ -1,6 +1,19 @@
 <h2>News</h2>
 <ul id="news_scroller">
     <li>
+        <h3><a href="#" style="color:#ff4040;">79th International Agricultural Fair</a></h3>
+        <p>
+            15.05.2012.<br/>
+            This year, Energoglobal doo is one of exhibitors at 
+            79th International Agricultural Fair. 
+            We invite you to visit us.<br>
+            <strong>Location: Open space 4/I</strong><br>
+            <a href="http://www.flickr.com/photos/energoglobal/sets/72157629753434652/show/" target="_blank" style="color:yellow;">
+                <strong>Photo gallery</strong>
+            </a>
+        </p>
+    </li>
+    <li>
         <h3><a href="#">Leoni - Prokuplje</a></h3>
         <p>
             20.09.2011.<br/>
