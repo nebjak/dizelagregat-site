@@ -1,6 +1,18 @@
 <h2>Novosti</h2>
 <ul id="news_scroller">
     <li>
+        <h3><a href="#" style="color:#ff4040;">79. poljoprivredni sajam</a></h3>
+        <p>
+            15.05.2012.<br/>
+            Energoglobal doo je ove godine jedan od izlagača na 79. međunarodnom
+            poljoprivrednom sajmu. Pozivamo vas da nas posetite!<br>
+            <strong>Lokacija: Otvoreni prostor 4/I</strong><br>
+            <a href="http://j.mp/LajAFb" target="_blank" style="color:yellow;">
+                <strong>Galerija fotografija</strong>
+            </a>
+        </p>
+    </li>
+    <li>
         <h3><a href="#">Leoni - Prokuplje</a></h3>
         <p>
             20.09.2011.<br/>
@@ -29,5 +41,5 @@
             31.10.2011.<br/>
             U svojoj ponudi od sada imamo i UPS uređaje renomiranog svetskog proizvođača.
         </p>
-    </li>    
+    </li>
 </ul>                    
