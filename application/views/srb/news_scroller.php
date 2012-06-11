@@ -1,6 +1,17 @@
 <h2>Novosti</h2>
 <ul id="news_scroller">
     <li>
+        <h3><a href="#" style="color:#ff4040;">Proizvodi Honda Power Equipment</a></h3>
+        <p>
+            23.05.2012.<br/>
+            Novo u ponudi! Proizvodi Honda Power Equipment.<br>
+            <img src="<?=  base_url()?>images/honda-pe-logo.jpg" alt="Honda Power Equipment Logo" /><br>
+            <a href="http://j.mp/Jx1BIV" target="_blank" style="color:yellow;">
+                <strong>Galerija fotografija</strong>
+            </a>
+        </p>
+    </li>
+    <li>
         <h3><a href="#" style="color:#ff4040;">79. poljoprivredni sajam</a></h3>
         <p>
             15.05.2012.<br/>
@@ -13,26 +24,25 @@
         </p>
     </li>
     <li>
-        <h3><a href="#">Leoni - Prokuplje</a></h3>
+        <h3><a href="#">DIS - AVIV PARK Pančevo</a></h3>
         <p>
-            20.09.2011.<br/>
-            Isporučen i pušten u pogon agreta od 300kVA za fabriku 
-            <strong>Leoni</strong> - Prokuplje
+            29.03.2012.<br/>
+            Isporučen i pušten u pogon dizel agregat snage 150 kVA za kompanuju DIS,
+            u prvi retail park u Srbiji, Aviv Park Pančevo.
         </p>
     </li>
     <li>
-        <h3><a href="#">Hitna Pomoć - Novi Sad</a></h3>
+        <h3><a href="#">Carnex Vrbas</a></h3>
         <p>
-            24.04.2011.<br/>
-            Isporučen i pušten u pogon sistem za rezervno napajanje sa dizel 
-            agregatom od 33kVA za dispečerski centar Hitne Pomoći u Novom Sadu.
+            23.03.2012.<br/>
+            Isporučen i pušten u pogon dizel agregat snage 50 kVA u kompaniji Carnex Vrbas.
         </p>
     </li>
     <li>
-        <h3><a href="#">Extra ponuda</a></h3>
+        <h3><a href="#">Unipromet Čačak</a></h3>
         <p>
-            25.10.2011.<br/>
-            Polovni dizel agregat različitih tipova i snaga!
+            29.02.2012.<br/>
+            Isporučen i pušten u pogon dizel agregat IV.138.KA, snage 138 kVA u kompaniji Unipromet Čačak.
         </p>
     </li>
     <li>
@@ -40,6 +50,13 @@
         <p>
             31.10.2011.<br/>
             U svojoj ponudi od sada imamo i UPS uređaje renomiranog svetskog proizvođača.
+        </p>
+    </li>
+    <li>
+        <h3><a href="#">Extra ponuda</a></h3>
+        <p>
+            25.10.2011.<br/>
+            Polovni dizel agregat različitih tipova i snaga!
         </p>
     </li>
 </ul>                    
