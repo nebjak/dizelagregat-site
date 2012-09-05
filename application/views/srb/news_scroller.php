@@ -1,7 +1,16 @@
 <h2>Novosti</h2>
 <ul id="news_scroller">
     <li>
-        <h3><a href="#" style="color:#ff4040;">Proizvodi Honda Power Equipment</a></h3>
+        <h3><a href="#" style="color:#ff4040;">Energoglobal doo na novoj adresi</a></h3>
+        <p>
+            03.09.2012.<br/>
+            Energoglobal doo se od sada nalazi na novoj adresi:<br/>
+            <span style="color: #ff4040; font-weight: bold;">Somborska rampa 25<br/>21000 Novi Sad</span><br/>
+            <a href="http://j.mp/RFVO0I" target="_blank" style="color:yellow;">Prikaži mapu</a>
+        </p>
+    </li>
+    <li>
+        <h3><a href="#">Proizvodi Honda Power Equipment</a></h3>
         <p>
             23.05.2012.<br/>
             Novo u ponudi! Proizvodi Honda Power Equipment.<br>
@@ -12,7 +21,7 @@
         </p>
     </li>
     <li>
-        <h3><a href="#" style="color:#ff4040;">79. poljoprivredni sajam</a></h3>
+        <h3><a href="#">79. poljoprivredni sajam</a></h3>
         <p>
             15.05.2012.<br/>
             Energoglobal doo je ove godine jedan od izlagača na 79. međunarodnom
