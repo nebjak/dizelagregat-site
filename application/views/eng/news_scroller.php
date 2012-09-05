@@ -1,7 +1,16 @@
 <h2>News</h2>
 <ul id="news_scroller">
     <li>
-        <h3><a href="#" style="color:#ff4040;">Prodcucts of Honda Power Equipment</a></h3>
+        <h3><a href="#" style="color:#ff4040;">Energoglobal doo on new address</a></h3>
+        <p>
+            03.09.2012.<br/>
+            Energoglobal doo moved to new office:<br/>
+            <span style="color: #ff4040; font-weight: bold;">Somborska rampa 25<br/>21000 Novi Sad</span><br/>
+            <a href="http://j.mp/RFVO0I" target="_blank" style="color:yellow;">Show map</a>
+        </p>
+    </li>
+    <li>
+        <h3><a href="#">Prodcucts of Honda Power Equipment</a></h3>
         <p>
             23.05.2012.<br/>
             NEW! Prodcucts of Honda Power Equipment.<br>
@@ -12,7 +21,7 @@
         </p>
     </li>
     <li>
-        <h3><a href="#" style="color:#ff4040;">79th International Agricultural Fair</a></h3>
+        <h3><a href="#">79th International Agricultural Fair</a></h3>
         <p>
             15.05.2012.<br/>
             This year, Energoglobal doo is one of exhibitors at 
