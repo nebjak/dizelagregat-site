@@ -96,7 +96,7 @@
                     <h1>Kontakt</h1>
                     <p>
                         <strong>ENERGOGLOBAL DOO</strong><br/>
-                        Kneza Miloša 33<br/>
+                        Somborska rampa 25<br/>
                         21000 Novi Sad<br/>
                         Srbija<br/>
                     </p>
@@ -109,7 +109,7 @@
                     <p>
                         PIB: 106644707<br/>
                         MB: 20650800<br/>
-                        Br. računa: 340-11004902-47 (Erste Bank)<br/>
+                        Br. računa: 220-124850-59 (ProCredit Bank)<br/>
                         Br. računa: 165-25624-94 (Hypo Alpe Adria Bank)
                     </p>
                     <p>
