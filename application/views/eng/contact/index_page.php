@@ -96,7 +96,7 @@
                     <p>
                         Energoglobal doo<br/>
                         Sombroska rampa 25<br/>
-                        Novi Sad<br/>
+                        21203 Veternik - Novi Sad<br/>
                         Serbia<br/>
                     </p>
                     <p>

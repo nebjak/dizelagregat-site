@@ -75,7 +75,7 @@
                     <p>
                         Energoglobal doo<br/>
                         Somborska rampa 25<br/>
-                        Novi Sad<br/>
+                        Veternik - Novi Sad<br/>
                         Serbia<br/>
                     </p>
                     <p>
