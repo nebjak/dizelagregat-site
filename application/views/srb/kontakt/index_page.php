@@ -97,7 +97,7 @@
                     <p>
                         <strong>ENERGOGLOBAL DOO</strong><br/>
                         Somborska rampa 25<br/>
-                        21000 Novi Sad<br/>
+                        21203 Veternik - Novi Sad<br/>
                         Srbija<br/>
                     </p>
                     <p>
